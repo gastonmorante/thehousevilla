@@ -7,5 +7,7 @@ osmo/
 video sony/
 *.jfif
 *.acr
+logo.png
+Fotos TheVillaHouse - Curadas/*.jpg
 .DS_Store
 Thumbs.db
