@@ -1,0 +1,11 @@
+# Raw media and heavy source folders (excluded from web repo)
+360 the house villa/
+fotos sony/
+fotos the house villa/
+insta 360/
+osmo/
+video sony/
+*.jfif
+*.acr
+.DS_Store
+Thumbs.db
