@@ -287,7 +287,7 @@
             <div class="flex items-center gap-3 p-3 sm:p-3.5 rounded-xl bg-surface-bright/10 backdrop-blur-md border border-white/10 text-left">
               <span class="material-symbols-outlined text-secondary-fixed text-2xl shrink-0">bed</span>
               <div>
-                <p class="font-title-md text-sm sm:text-title-md text-white leading-tight" data-i18n="pill_2_title">2 Dormitorios · 8 Pax</p>
+                <p class="font-title-md text-sm sm:text-title-md text-white leading-tight" data-i18n="pill_2_title">2 Dormitorios · 6 Pax</p>
                 <p class="font-body-sm text-xs sm:text-body-sm text-white/75" data-i18n="pill_2_sub">2.5 Baños · Master suites</p>
               </div>
             </div>
@@ -319,12 +319,12 @@
             </div>
             <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-8 w-full md:w-auto text-left">
               <div class="p-3 sm:p-0 rounded-xl bg-surface/60 sm:bg-transparent border border-outline-variant/20 sm:border-0">
-                <span class="font-display text-3xl sm:text-5xl text-primary font-normal">850</span><span class="text-secondary font-semibold text-base sm:text-lg ml-1">m²</span>
+                <span class="font-display text-3xl sm:text-5xl text-primary font-normal">750</span><span class="text-secondary font-semibold text-base sm:text-lg ml-1">m²</span>
                 <p class="font-label-md text-[10px] sm:text-label-md uppercase tracking-wider text-on-surface-variant mt-1" data-i18n="stat_1_label">Predio Privado</p>
               </div>
               <div class="p-3 sm:p-0 rounded-xl bg-surface/60 sm:bg-transparent border border-outline-variant/20 sm:border-0">
-                <span class="font-display text-3xl sm:text-5xl text-primary font-normal">8</span><span class="text-secondary font-semibold text-base sm:text-lg ml-1">Pax</span>
-                <p class="font-label-md text-[10px] sm:text-label-md uppercase tracking-wider text-on-surface-variant mt-1" data-i18n="stat_2_label">Hasta 8 Huéspedes</p>
+                <span class="font-display text-3xl sm:text-5xl text-primary font-normal">6</span><span class="text-secondary font-semibold text-base sm:text-lg ml-1">Pax</span>
+                <p class="font-label-md text-[10px] sm:text-label-md uppercase tracking-wider text-on-surface-variant mt-1" data-i18n="stat_2_label">Hasta 6 Huéspedes</p>
               </div>
               <div class="p-3 sm:p-0 rounded-xl bg-surface/60 sm:bg-transparent border border-outline-variant/20 sm:border-0">
                 <span class="font-display text-3xl sm:text-5xl text-primary font-normal">2</span>
@@ -766,7 +766,7 @@
                 </div>
                 <div class="mt-6 sm:mt-8 pt-5 sm:pt-6 border-t border-outline-variant/30 flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
                   <span class="font-display text-4xl sm:text-5xl text-primary font-normal font-serif">$650</span>
-                  <span class="font-body-md text-xs sm:text-body-md text-on-surface-variant" data-i18n="book_price_sub">USD / noche (Villa privada completa · 2 Dormitorios · 2.5 Baños · Hasta 8 Pax)</span>
+                  <span class="font-body-md text-xs sm:text-body-md text-on-surface-variant" data-i18n="book_price_sub">USD / noche (Villa privada completa · 2 Dormitorios · 2.5 Baños · Hasta 6 Pax)</span>
                 </div>
                 <!-- Villa Highlights Callout -->
                 <div class="mt-4 space-y-2">
@@ -805,13 +805,12 @@
                   <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <!-- Dormitorios & Capacidad -->
                     <div class="flex flex-col">
-                      <label class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant mb-2" data-i18n="form_guests_label" for="guests-count">Alojamiento (Hasta 8 Pax · 2.5 Baños)</label>
+                      <label class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant mb-2" data-i18n="form_guests_label" for="guests-count">Alojamiento (Hasta 6 Pax · 2.5 Baños)</label>
                       <div class="relative">
                         <select class="w-full h-12 px-4 pr-10 rounded-lg bg-surface border-0 border-b border-primary/40 focus:border-b-2 focus:border-primary text-on-surface font-body-sm text-body-sm outline-none transition-colors appearance-none cursor-pointer" id="guests-count">
                           <option data-i18n="form_opt_2" value="2">1 - 2 Huéspedes · Villa Completa (2 Dorm. / 2.5 Baños)</option>
                           <option data-i18n="form_opt_4" value="4">3 - 4 Huéspedes · Villa Completa (2 Dorm. / 2.5 Baños)</option>
-                          <option data-i18n="form_opt_6" value="6">5 - 6 Huéspedes · Villa Completa (2 Dorm. / 2.5 Baños)</option>
-                          <option data-i18n="form_opt_8" selected="" value="8">Hasta 8 Huéspedes (8 Pax) · 2 Dormitorios · 2.5 Baños</option>
+                          <option data-i18n="form_opt_6" selected="" value="6">Hasta 6 Huéspedes (6 Pax) · 2 Dormitorios · 2.5 Baños</option>
                         </select>
                         <span class="material-symbols-outlined absolute right-3 top-3 text-on-surface-variant pointer-events-none">expand_more</span>
                       </div>
@@ -820,19 +819,28 @@
                     <div class="flex flex-col">
                       <label class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant mb-2" data-i18n="form_email_label" for="guest-email">Correo de Contacto</label>
                       <div class="relative">
-                        <input class="w-full h-12 px-4 rounded-lg bg-surface border-0 border-b border-primary/40 focus:border-b-2 focus:border-primary text-on-surface font-body-sm text-body-sm outline-none transition-colors" id="guest-email" placeholder="huesped@thehousevilla.com" required="" type="email">
+                        <input class="w-full h-12 px-4 rounded-lg bg-surface border-0 border-b border-primary/40 focus:border-b-2 focus:border-primary text-on-surface font-body-sm text-body-sm outline-none transition-colors" id="guest-email" placeholder="tu@correo.com" required="" type="email">
                       </div>
                     </div>
                   </div>
                   <!-- Message feedback -->
                   <div class="hidden p-4 rounded-lg bg-primary-fixed text-on-primary-fixed text-center font-body-sm text-body-sm" data-i18n="form_feedback" id="booking-feedback">
-                    ¡Gracias por su solicitud! Nuestro Concierge personal verificará la disponibilidad para sus fechas y le contactará en menos de 2 horas.
+                    ¡Gracias por su solicitud! Se ha preparado el envío a thehousequetzal@icloud.com y WhatsApp (+52 984 125 6251).
                   </div>
-                  <!-- CTA Submit Button -->
-                  <button class="w-full h-12 sm:h-14 bg-secondary hover:bg-secondary-container text-white font-label-lg text-xs sm:text-label-lg uppercase tracking-widest rounded-xl sm:rounded-lg shadow-lg shadow-secondary/20 transition-all duration-300 flex items-center justify-center gap-2" id="btn-submit-booking" type="submit">
-                    <span data-i18n="form_submit">Confirmar Disponibilidad Inmediata</span>
-                    <span class="material-symbols-outlined text-xl">event_available</span>
-                  </button>
+                  <!-- CTA Submit Buttons (Email + WhatsApp) -->
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+                    <button class="w-full h-12 sm:h-14 bg-secondary hover:bg-secondary-container text-white font-label-lg text-xs sm:text-label-lg uppercase tracking-widest rounded-xl sm:rounded-lg shadow-lg shadow-secondary/20 transition-all duration-300 flex items-center justify-center gap-2 px-4" id="btn-submit-booking" type="submit">
+                      <span class="material-symbols-outlined text-lg sm:text-xl">mail</span>
+                      <span data-i18n="form_submit">Enviar por Correo</span>
+                    </button>
+                    <button class="w-full h-12 sm:h-14 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-label-lg text-xs sm:text-label-lg uppercase tracking-widest rounded-xl sm:rounded-lg shadow-lg shadow-[#25D366]/25 transition-all duration-300 flex items-center justify-center gap-2 px-4" id="btn-whatsapp-booking" onclick="handleWhatsAppBooking();" type="button">
+                      <svg aria-hidden="true" class="w-5 h-5 fill-current shrink-0" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.126.556 4.122 1.53 5.854l-1.53 5.586 5.736-1.504c1.693.922 3.633 1.448 5.697 1.448 6.627 0 12-5.373 12-12s-5.373-12-12.433-11.384z"/></svg>
+                      <span data-i18n="form_submit_wa">Enviar por WhatsApp</span>
+                    </button>
+                  </div>
+                  <p class="text-[11px] text-center text-on-surface-variant/80">
+                    Contacto directo: <a class="text-primary underline hover:text-secondary" href="mailto:thehousequetzal@icloud.com">thehousequetzal@icloud.com</a> · <a class="text-primary underline hover:text-secondary" href="https://wa.me/529841256251" rel="noopener noreferrer" target="_blank">+52 984 125 6251</a>
+                  </p>
                 </form>
               </div>
             </div>
@@ -865,6 +873,15 @@
 
     </div>
   </main>
+
+  <!-- FLOATING WHATSAPP CTA BUTTON (+529841256251) -->
+  <a aria-label="Contactar por WhatsApp +52 984 125 6251" class="fixed bottom-20 sm:bottom-6 right-4 sm:right-6 z-40 group flex items-center gap-2.5 bg-[#25D366] hover:bg-[#1ebe5d] text-white pl-3.5 pr-4 sm:px-5 h-12 sm:h-14 rounded-full shadow-[0_8px_30px_rgba(37,211,102,0.4)] hover:shadow-[0_12px_36px_rgba(37,211,102,0.55)] transition-all duration-300 transform hover:-translate-y-0.5" href="https://wa.me/529841256251?text=Hola%2C%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20y%20disponibilidad%20para%20The%20House%20Villa%20(750%20m%C2%B2%20%C2%B7%20Hasta%206%20Pax)." rel="noopener noreferrer" target="_blank">
+    <span class="relative flex h-6 w-6 items-center justify-center">
+      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-35"></span>
+      <svg aria-hidden="true" class="relative w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.126.556 4.122 1.53 5.854l-1.53 5.586 5.736-1.504c1.693.922 3.633 1.448 5.697 1.448 6.627 0 12-5.373 12-12s-5.373-12-12.433-11.384z"/></svg>
+    </span>
+    <span class="font-label-lg text-[11px] sm:text-xs uppercase tracking-widest font-bold" data-i18n="wa_float_cta">WhatsApp</span>
+  </a>
 
   <!-- NATIVE MOBILE BOTTOM NAVIGATION BAR (< 640px) -->
   <nav aria-label="Navegación móvil rápida" class="sm:hidden fixed bottom-0 inset-x-0 z-30 bg-surface/95 backdrop-blur-xl border-t border-outline-variant/40 px-2 py-1.5 flex items-center justify-around shadow-[0_-4px_20px_rgba(0,0,0,0.06)]">
@@ -909,7 +926,7 @@
         <div class="lg:col-span-3 flex flex-col gap-space-sm">
           <span class="font-label-lg text-label-lg uppercase text-primary tracking-widest font-semibold" data-i18n="footer_nav_title">Navegación</span>
           <ul class="flex flex-col gap-space-xs font-body-sm text-body-sm">
-            <li class="py-space-xs"><a class="hover:text-primary transition-colors" data-i18n="footer_nav_1" data-path="la-villa" href="#">La Residencia (2 Dormitorios · 2.5 Baños · 8 Pax)</a></li>
+            <li class="py-space-xs"><a class="hover:text-primary transition-colors" data-i18n="footer_nav_1" data-path="la-villa" href="#">La Residencia (2 Dormitorios · 2.5 Baños · 6 Pax)</a></li>
             <li class="py-space-xs"><a class="hover:text-primary transition-colors" data-i18n="footer_nav_2" data-path="tour-virtual-360" href="#tour-virtual">Recorrido Inmersivo 360°</a></li>
             <li class="py-space-xs"><a class="hover:text-primary transition-colors" data-i18n="footer_nav_3" data-path="galeria" href="#galeria">Colección y Arquitectura (29 Fotos)</a></li>
             <li class="py-space-xs"><a class="hover:text-primary transition-colors" data-i18n="footer_nav_4" data-path="ubicacion-y-entorno" href="#ubicacion">Ubicación, Cenotes y Transporte</a></li>
@@ -922,8 +939,8 @@
             <p class="text-on-surface">Carretera Tulum-Boca Paila Km 7.5</p>
             <p class="text-on-surface">Riviera Maya, Quintana Roo, México</p>
             <p class="text-on-surface-variant text-xs" data-i18n="footer_concierge_sub">Información de Tulum · TQO / Tren Maya</p>
-            <a class="text-secondary hover:text-secondary-container transition-colors" href="mailto:concierge@thehousevilla.com">concierge@thehousevilla.com</a>
-            <p>+52 (984) 871 2940</p>
+            <a class="text-secondary hover:text-secondary-container transition-colors font-medium" href="mailto:thehousequetzal@icloud.com">thehousequetzal@icloud.com</a>
+            <a class="text-on-surface hover:text-primary transition-colors font-medium" href="https://wa.me/529841256251" rel="noopener noreferrer" target="_blank">+52 984 125 6251 (WhatsApp)</a>
           </div>
         </div>
         <div class="lg:col-span-2 flex flex-col gap-space-sm">
@@ -1465,7 +1482,7 @@
           hero_cta_tour: 'Explorar Tour 360°',
           pill_1_title: 'Piscina Cenote',
           pill_1_sub: 'Diseño orgánico curvo',
-          pill_2_title: '2 Dormitorios · 8 Pax',
+          pill_2_title: '2 Dormitorios · 6 Pax',
           pill_2_sub: '2.5 Baños · Master suites',
           pill_3_title: 'Tren Maya & TQO',
           pill_3_sub: 'Conectividad en Tulum',
@@ -1474,7 +1491,7 @@
           concept_overline: 'El Concepto',
           concept_title: 'Lujo sereno donde la naturaleza traza cada línea',
           stat_1_label: 'Predio Privado',
-          stat_2_label: 'Hasta 8 Huéspedes',
+          stat_2_label: 'Hasta 6 Huéspedes',
           stat_3_label: 'Dormitorios Suites',
           stat_4_label: 'Baños (2 C + 1/2)',
           tour_badge: 'Experiencia Inmersiva',
@@ -1551,23 +1568,24 @@
           book_overline: 'Reserva Directa Exclusiva',
           book_title: 'Asegura tu estancia en The Villa House',
           book_desc: 'Tarifas privilegiadas sin intermediarios, con servicio de bienvenida personalizado, amenidades orgánicas locales y asistencia de concierge 24/7.',
-          book_price_sub: 'USD / noche (Villa privada completa · 2 Dormitorios · 2.5 Baños · Hasta 8 Pax)',
+          book_price_sub: 'USD / noche (Villa privada completa · 2 Dormitorios · 2.5 Baños · Hasta 6 Pax)',
           book_perk_1: 'Cancelación flexible hasta 14 días antes',
           book_perk_2: 'Atención personalizada y privacidad total en la selva',
           form_title: 'Planifica tu llegada',
           form_checkin: 'Check-in',
           form_checkout: 'Check-out',
-          form_guests_label: 'Alojamiento (Hasta 8 Pax · 2.5 Baños)',
+          form_guests_label: 'Alojamiento (Hasta 6 Pax · 2.5 Baños)',
           form_opt_2: '1 - 2 Huéspedes · Villa Completa (2 Dorm. / 2.5 Baños)',
           form_opt_4: '3 - 4 Huéspedes · Villa Completa (2 Dorm. / 2.5 Baños)',
-          form_opt_6: '5 - 6 Huéspedes · Villa Completa (2 Dorm. / 2.5 Baños)',
-          form_opt_8: 'Hasta 8 Huéspedes (8 Pax) · 2 Dormitorios · 2.5 Baños',
+          form_opt_6: 'Hasta 6 Huéspedes (6 Pax) · 2 Dormitorios · 2.5 Baños',
           form_email_label: 'Correo de Contacto',
-          form_feedback: '¡Gracias por su solicitud! Nuestro Concierge personal verificará la disponibilidad para sus fechas y le contactará en menos de 2 horas.',
-          form_submit: 'Confirmar Disponibilidad Inmediata',
+          form_feedback: '¡Gracias por su solicitud! Se ha preparado el envío a thehousequetzal@icloud.com y WhatsApp (+52 984 125 6251).',
+          form_submit: 'Enviar por Correo',
+          form_submit_wa: 'Enviar por WhatsApp',
+          wa_float_cta: 'WhatsApp',
           footer_desc: 'Santuario arquitectónico de piedra caliza y maderas vivas integrado en el dosel selvático del Caribe Mexicano.',
           footer_nav_title: 'Navegación',
-          footer_nav_1: 'La Residencia (2 Dormitorios · 2.5 Baños · 8 Pax)',
+          footer_nav_1: 'La Residencia (2 Dormitorios · 2.5 Baños · 6 Pax)',
           footer_nav_2: 'Recorrido Inmersivo 360°',
           footer_nav_3: 'Colección y Arquitectura (29 Fotos)',
           footer_nav_4: 'Ubicación, Cenotes y Transporte',
@@ -1596,7 +1614,7 @@
           hero_cta_tour: 'Explore 360° Tour',
           pill_1_title: 'Cenote Pool',
           pill_1_sub: 'Curved organic design',
-          pill_2_title: '2 Bedrooms · 8 Guests',
+          pill_2_title: '2 Bedrooms · 6 Guests',
           pill_2_sub: '2.5 Baths · Master suites',
           pill_3_title: 'Maya Train & TQO',
           pill_3_sub: 'Tulum Connectivity',
@@ -1605,7 +1623,7 @@
           concept_overline: 'The Concept',
           concept_title: 'Serene luxury where nature draws every line',
           stat_1_label: 'Private Estate',
-          stat_2_label: 'Up to 8 Guests',
+          stat_2_label: 'Up to 6 Guests',
           stat_3_label: 'Bedroom Suites',
           stat_4_label: 'Bathrooms (2.5)',
           tour_badge: 'Immersive Experience',
@@ -1682,23 +1700,24 @@
           book_overline: 'Exclusive Direct Booking',
           book_title: 'Secure your stay at The Villa House',
           book_desc: 'Privileged direct rates with no intermediaries, personalized welcome service, local organic amenities, and 24/7 concierge assistance.',
-          book_price_sub: 'USD / night (Full Private Villa · 2 Bedrooms · 2.5 Baths · Up to 8 Guests)',
+          book_price_sub: 'USD / night (Full Private Villa · 2 Bedrooms · 2.5 Baths · Up to 6 Guests)',
           book_perk_1: 'Flexible cancellation up to 14 days prior',
           book_perk_2: 'Personalized attention and total jungle privacy',
           form_title: 'Plan your arrival',
           form_checkin: 'Check-in',
           form_checkout: 'Check-out',
-          form_guests_label: 'Accommodation (Up to 8 Guests · 2.5 Baths)',
+          form_guests_label: 'Accommodation (Up to 6 Guests · 2.5 Baths)',
           form_opt_2: '1 - 2 Guests · Full Villa (2 Bed / 2.5 Bath)',
           form_opt_4: '3 - 4 Guests · Full Villa (2 Bed / 2.5 Bath)',
-          form_opt_6: '5 - 6 Guests · Full Villa (2 Bed / 2.5 Bath)',
-          form_opt_8: 'Up to 8 Guests (8 Pax) · 2 Bedrooms · 2.5 Baths',
+          form_opt_6: 'Up to 6 Guests (6 Pax) · 2 Bedrooms · 2.5 Baths',
           form_email_label: 'Contact Email',
-          form_feedback: 'Thank you for your inquiry! Our personal Concierge will verify availability for your dates and contact you within 2 hours.',
-          form_submit: 'Confirm Immediate Availability',
+          form_feedback: 'Thank you for your inquiry! Prepared for sending to thehousequetzal@icloud.com and WhatsApp (+52 984 125 6251).',
+          form_submit: 'Send via Email',
+          form_submit_wa: 'Send via WhatsApp',
+          wa_float_cta: 'WhatsApp',
           footer_desc: 'Architectural sanctuary of limestone and living woods integrated into the jungle canopy of the Mexican Caribbean.',
           footer_nav_title: 'Navigation',
-          footer_nav_1: 'The Residence (2 Bedrooms · 2.5 Baths · 8 Guests)',
+          footer_nav_1: 'The Residence (2 Bedrooms · 2.5 Baths · 6 Guests)',
           footer_nav_2: '360° Immersive Tour',
           footer_nav_3: 'Collection & Architecture (29 Photos)',
           footer_nav_4: 'Location, Cenotes & Transport',
@@ -1727,7 +1746,7 @@
           hero_cta_tour: 'Explorer la Visite 360°',
           pill_1_title: 'Piscine Cénoté',
           pill_1_sub: 'Design organique incurvé',
-          pill_2_title: '2 Chambres · 8 Pers.',
+          pill_2_title: '2 Chambres · 6 Pers.',
           pill_2_sub: '2.5 Salles de bain · Suites',
           pill_3_title: 'Train Maya & TQO',
           pill_3_sub: 'Connectivité à Tulum',
@@ -1736,7 +1755,7 @@
           concept_overline: 'Le Concept',
           concept_title: 'Un luxe serein où la nature trace chaque ligne',
           stat_1_label: 'Domaine Privé',
-          stat_2_label: 'Jusqu’à 8 Hôtes',
+          stat_2_label: 'Jusqu’à 6 Hôtes',
           stat_3_label: 'Suites Chambres',
           stat_4_label: 'Salles de Bain (2.5)',
           tour_badge: 'Expérience Immersive',
@@ -1813,23 +1832,24 @@
           book_overline: 'Réservation Directe Exclusive',
           book_title: 'Réservez votre séjour à The Villa House',
           book_desc: 'Tarifs privilégiés sans intermédiaires, accueil personnalisé, produits biologiques locaux et conciergerie 24h/24.',
-          book_price_sub: 'USD / nuit (Villa privée complète · 2 Chambres · 2.5 Salles de bain · Jusqu’à 8 Pers.)',
+          book_price_sub: 'USD / nuit (Villa privée complète · 2 Chambres · 2.5 Salles de bain · Jusqu’à 6 Pers.)',
           book_perk_1: 'Annulation flexible jusqu’à 14 jours avant',
           book_perk_2: 'Attention personnalisée et intimité totale dans la jungle',
           form_title: 'Planifiez votre arrivée',
           form_checkin: 'Arrivée (Check-in)',
           form_checkout: 'Départ (Check-out)',
-          form_guests_label: 'Hébergement (Jusqu’à 8 Pers. · 2.5 Bains)',
+          form_guests_label: 'Hébergement (Jusqu’à 6 Pers. · 2.5 Bains)',
           form_opt_2: '1 - 2 Hôtes · Villa Complète (2 Ch. / 2.5 Bains)',
           form_opt_4: '3 - 4 Hôtes · Villa Complète (2 Ch. / 2.5 Bains)',
-          form_opt_6: '5 - 6 Hôtes · Villa Complète (2 Ch. / 2.5 Bains)',
-          form_opt_8: 'Jusqu’à 8 Hôtes (8 Pax) · 2 Chambres · 2.5 Bains',
+          form_opt_6: 'Jusqu’à 6 Hôtes (6 Pax) · 2 Chambres · 2.5 Bains',
           form_email_label: 'Email de Contact',
-          form_feedback: 'Merci pour votre demande ! Notre Concierge vérifiera la disponibilité pour vos dates et vous contactera sous 2 heures.',
-          form_submit: 'Confirmer la Disponibilité Immédiate',
+          form_feedback: 'Merci pour votre demande ! Envoi préparé vers thehousequetzal@icloud.com et WhatsApp (+52 984 125 6251).',
+          form_submit: 'Envoyer par Email',
+          form_submit_wa: 'Envoyer par WhatsApp',
+          wa_float_cta: 'WhatsApp',
           footer_desc: 'Sanctuaire architectural de pierre calcaire et de bois vivants intégré dans la canopée des Caraïbes Mexicaines.',
           footer_nav_title: 'Navigation',
-          footer_nav_1: 'La Résidence (2 Chambres · 2.5 Bains · 8 Pers.)',
+          footer_nav_1: 'La Résidence (2 Chambres · 2.5 Bains · 6 Pers.)',
           footer_nav_2: 'Visite Immersive 360°',
           footer_nav_3: 'Collection & Architecture (29 Photos)',
           footer_nav_4: 'Emplacement, Cénotes & Transports',
@@ -1858,7 +1878,7 @@
           hero_cta_tour: 'Esplora Tour 360°',
           pill_1_title: 'Piscina Cenote',
           pill_1_sub: 'Design organico curvo',
-          pill_2_title: '2 Camere · 8 Ospiti',
+          pill_2_title: '2 Camere · 6 Ospiti',
           pill_2_sub: '2.5 Bagni · Master suite',
           pill_3_title: 'Tren Maya & TQO',
           pill_3_sub: 'Connettività a Tulum',
@@ -1867,7 +1887,7 @@
           concept_overline: 'Il Concetto',
           concept_title: 'Lusso sereno dove la natura traccia ogni linea',
           stat_1_label: 'Tenuta Privata',
-          stat_2_label: 'Fino a 8 Ospiti',
+          stat_2_label: 'Fino a 6 Ospiti',
           stat_3_label: 'Camere Suite',
           stat_4_label: 'Bagni (2.5)',
           tour_badge: 'Esperienza Immersiva',
@@ -1944,23 +1964,24 @@
           book_overline: 'Prenotazione Diretta Esclusiva',
           book_title: 'Assicura il tuo soggiorno a The Villa House',
           book_desc: 'Tariffe privilegiate senza intermediari, servizio di benvenuto personalizzato, prodotti biologici locali e assistenza concierge 24/7.',
-          book_price_sub: 'USD / notte (Villa privata intera · 2 Camere · 2.5 Bagni · Fino a 8 Ospiti)',
+          book_price_sub: 'USD / notte (Villa privata intera · 2 Camere · 2.5 Bagni · Fino a 6 Ospiti)',
           book_perk_1: 'Cancellazione flessibile fino a 14 giorni prima',
           book_perk_2: 'Attenzione personalizzata e totale privacy nella giungla',
           form_title: 'Pianifica il tuo arrivo',
           form_checkin: 'Check-in',
           form_checkout: 'Check-out',
-          form_guests_label: 'Alloggio (Fino a 8 Ospiti · 2.5 Bagni)',
+          form_guests_label: 'Alloggio (Fino a 6 Ospiti · 2.5 Bagni)',
           form_opt_2: '1 - 2 Ospiti · Villa Intera (2 Camere / 2.5 Bagni)',
           form_opt_4: '3 - 4 Ospiti · Villa Intera (2 Camere / 2.5 Bagni)',
-          form_opt_6: '5 - 6 Ospiti · Villa Intera (2 Camere / 2.5 Bagni)',
-          form_opt_8: 'Fino a 8 Ospiti (8 Pax) · 2 Camere · 2.5 Bagni',
+          form_opt_6: 'Fino a 6 Ospiti (6 Pax) · 2 Camere · 2.5 Bagni',
           form_email_label: 'Email di Contatto',
-          form_feedback: 'Grazie per la tua richiesta! Il nostro Concierge verificherà la disponibilità per le tue date e ti contatterà entro 2 ore.',
-          form_submit: 'Conferma Disponibilità Immediata',
+          form_feedback: 'Grazie per la tua richiesta! Invio preparato a thehousequetzal@icloud.com e WhatsApp (+52 984 125 6251).',
+          form_submit: 'Invia per Email',
+          form_submit_wa: 'Invia su WhatsApp',
+          wa_float_cta: 'WhatsApp',
           footer_desc: 'Santuario architettonico di pietra calcarea e legni vivi integrato nella giungla dei Caraibi Messicani.',
           footer_nav_title: 'Navigazione',
-          footer_nav_1: 'La Residenza (2 Camere · 2.5 Bagni · 8 Ospiti)',
+          footer_nav_1: 'La Residenza (2 Camere · 2.5 Bagni · 6 Ospiti)',
           footer_nav_2: 'Tour Immersivo 360°',
           footer_nav_3: 'Collezione e Architettura (29 Foto)',
           footer_nav_4: 'Posizione, Cenote e Trasporti',
@@ -2262,15 +2283,81 @@
         });
       }
 
-      // Booking Form Submission Mock
+      // Booking Form Submission (Email: thehousequetzal@icloud.com & WhatsApp: +529841256251)
+      function getBookingFormDetails() {
+        const checkIn = document.getElementById('check-in-date')?.value || '';
+        const checkOut = document.getElementById('check-out-date')?.value || '';
+        const guestsSelect = document.getElementById('guests-count');
+        const guestsText = guestsSelect ? guestsSelect.options[guestsSelect.selectedIndex].text : 'Hasta 6 Pax';
+        const guestEmail = document.getElementById('guest-email')?.value || '';
+        return { checkIn, checkOut, guestsText, guestEmail };
+      }
+
       window.handleBookingSubmit = function() {
+        const { checkIn, checkOut, guestsText, guestEmail } = getBookingFormDetails();
         const feedback = document.getElementById('booking-feedback');
-        const submitBtn = document.getElementById('btn-submit-booking');
-        if (feedback && submitBtn) {
-          submitBtn.disabled = true;
-          submitBtn.classList.add('opacity-50');
+        if (feedback) {
           feedback.classList.remove('hidden');
         }
+
+        // Send via FormSubmit AJAX to thehousequetzal@icloud.com
+        fetch('https://formsubmit.co/ajax/thehousequetzal@icloud.com', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify({
+            _subject: `Solicitud de Reserva · The House Villa (${checkIn} a ${checkOut})`,
+            Check_In: checkIn,
+            Check_Out: checkOut,
+            Huespedes: guestsText,
+            Correo_Huesped: guestEmail,
+            Propiedad: 'The House Villa (750 m² · Máx 6 Pax)'
+          })
+        }).catch(() => {});
+
+        // Also open mailto:thehousequetzal@icloud.com with pre-filled details
+        const subject = encodeURIComponent(`Reserva The House Villa (${checkIn} al ${checkOut})`);
+        const body = encodeURIComponent(
+          `Hola equipo de The House Villa,\n\nMe gustaría solicitar disponibilidad para las siguientes fechas:\n\n` +
+          `• Check-in: ${checkIn}\n` +
+          `• Check-out: ${checkOut}\n` +
+          `• Huéspedes: ${guestsText}\n` +
+          `• Correo de contacto: ${guestEmail}\n\n` +
+          `Quedo atento(a) a su confirmación.`
+        );
+        window.location.href = `mailto:thehousequetzal@icloud.com?subject=${subject}&body=${body}`;
+      };
+
+      window.handleWhatsAppBooking = function() {
+        const { checkIn, checkOut, guestsText, guestEmail } = getBookingFormDetails();
+        const feedback = document.getElementById('booking-feedback');
+        if (feedback) {
+          feedback.classList.remove('hidden');
+        }
+
+        if (guestEmail) {
+          fetch('https://formsubmit.co/ajax/thehousequetzal@icloud.com', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify({
+              _subject: `Solicitud vía WhatsApp · The House Villa (${checkIn} a ${checkOut})`,
+              Check_In: checkIn,
+              Check_Out: checkOut,
+              Huespedes: guestsText,
+              Correo_Huesped: guestEmail,
+              Propiedad: 'The House Villa (750 m² · Máx 6 Pax)'
+            })
+          }).catch(() => {});
+        }
+
+        const waMessage = encodeURIComponent(
+          `Hola, me gustaría reservar / confirmar disponibilidad en *The House Villa* (750 m² · Hasta 6 Pax):\n\n` +
+          `• *Check-in:* ${checkIn}\n` +
+          `• *Check-out:* ${checkOut}\n` +
+          `• *Huéspedes:* ${guestsText}\n` +
+          `• *Correo:* ${guestEmail || 'Por confirmar'}\n` +
+          `• *Ref:* thehousequetzal@icloud.com`
+        );
+        window.open(`https://wa.me/529841256251?text=${waMessage}`, '_blank', 'noopener,noreferrer');
       };
 
       // Set default dates for booking form
