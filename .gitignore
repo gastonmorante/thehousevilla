@@ -11,7 +11,9 @@ insta 360/
 osmo/
 tomas extras/
 video sony/
-Videos/
+/Videos/
+!assets/videos/
+!assets/videos/*.mp4
 voz en off/
 *.prproj
 *.prin
