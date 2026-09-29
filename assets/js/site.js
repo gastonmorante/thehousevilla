@@ -356,20 +356,27 @@
       hero_cta_book: 'Reservar Experiencia',
       hero_cta_video: 'Ver Video',
       video_modal_title: 'The Villa House · Video Oficial con Audio',
-      pill_1_title: 'Alberca Privada',
-      pill_1_sub: 'Diseño orgánico curvo',
-      pill_2_title: '2 Dormitorios · 6 Pax',
-      pill_2_sub: '2.5 Baños · Master suites',
-      pill_3_title: 'Tren Maya & TQO',
-      pill_3_sub: 'Conectividad en Tulum',
-      pill_4_title: '100% Privacidad',
-      pill_4_sub: 'Inmersión en selva virgen',
-      concept_overline: 'El Concepto',
+      concept_overline: 'El Concepto · KPIs en Vivo',
       concept_title: 'Lujo sereno donde la naturaleza traza cada línea',
-      stat_1_label: 'Superficie Total',
-      stat_2_label: 'Hasta 6 Huéspedes',
-      stat_3_label: 'Dormitorios Suites',
-      stat_4_label: 'Baños (2 C + 1/2)',
+      concept_kpi_hint: 'Indicadores Dinámicos · Toca cada métrica',
+      kpi_1_badge: 'Espacio Privado',
+      stat_1_label: 'Superficie Total de la Propiedad',
+      stat_1_sub: 'Jardín selvático, terraza de piedra caliza, alberca privada y residencia',
+      kpi_2_badge: 'Capacidad Óptima',
+      stat_2_label: 'Huéspedes en Total Confort',
+      stat_2_sub: 'Villa privada completa · Eventos íntimos en 750 m²',
+      kpi_3_badge: 'Descanso de Autor',
+      kpi_3_unit: 'Suites',
+      stat_3_label: 'Dormitorios Climatizados',
+      stat_3_sub: '1 Master Suite King + 1 Suite Familiar (Queen + 2 Individuales)',
+      kpi_4_badge: 'Acabados Artesanales',
+      kpi_4_unit: 'Baños',
+      stat_4_label: '2 Completos + 1 Medio Baño',
+      stat_4_sub: 'Mesetas de madera parota viva, piedra caliza y ducha exterior',
+      kpi_strip_1: 'Privacidad Bardeada',
+      kpi_strip_2: 'Wi-Fi Alta Velocidad',
+      kpi_strip_3: 'Concierge & Asistencia',
+      kpi_strip_4: 'Fotografías Curadas',
       gal_overline: 'Colección Visual · 29 Fotografías Curadas',
       gal_title: 'Arquitectura que Respira Naturaleza',
       gal_desc: 'Cada espacio ha sido concebido para diluir las fronteras entre el confort interior y la vegetación exuberante. Toca o haz clic en cualquier fotografía para ampliarla.',
@@ -453,11 +460,12 @@
       tr_4_title: 'ADO, Ciclovías y Movilidad Local',
       tr_4_desc: 'Terminal de autobuses ADO en el centro de Tulum, vans colectivas por la Carretera 307, taxis locales, vehículos particulares y ciclovías hacia la costa.',
       mob_maps_btn: 'Ver Ubicación en Google Maps',
+      mob_coords_btn: 'Ver Ubicación en Google Maps',
       mob_coords: 'Coordenadas: 20°12\'44.2"N 87°26\'18.8"W',
       book_overline: 'Reserva Directa Exclusiva',
       book_title: 'Asegura tu estancia en The Villa House',
-      book_desc: 'Tarifas privilegiadas sin intermediarios, con servicio de bienvenida personalizado, amenidades orgánicas locales y asistencia de concierge 24/7.',
-      book_price_sub: 'USD / noche (Villa privada completa · 2 Dormitorios · 2.5 Baños · Hasta 6 Pax)',
+      book_desc: 'Atención directa sin intermediarios, con servicio de bienvenida personalizado, amenidades orgánicas locales y asistencia de concierge 24/7.',
+      book_villa_specs: 'Villa Privada Completa · 750 m² · 2 Suites · 2.5 Baños · Hasta 6 Pax',
       book_perk_1: 'Cancelación flexible hasta 14 días antes',
       book_perk_2: 'Atención personalizada y privacidad total en la selva',
       form_title: 'Planifica tu llegada',
@@ -470,7 +478,9 @@
       form_opt_event: 'Renta para Evento Social / Celebración Privada (750 m²)',
       form_email_label: 'Correo de Contacto',
       form_consent_html: 'He leído y acepto el <a href="privacidad.html" class="underline text-primary font-medium hover:text-secondary">Aviso de Privacidad</a> y los <a href="privacidad.html#terminos" class="underline text-primary font-medium hover:text-secondary">Términos de Estancia</a>, y autorizo el envío de mis datos para recibir información y cotización por correo electrónico o WhatsApp.',
+      form_privacy_consent: 'He leído y acepto el <a href="privacidad.html" class="underline text-primary font-medium hover:text-secondary">Aviso de Privacidad</a> y los <a href="privacidad.html#terminos" class="underline text-primary font-medium hover:text-secondary">Términos de Estancia</a>, y autorizo el envío de mis datos para recibir información y cotización por correo electrónico o WhatsApp.',
       form_consent_error: 'Por favor acepta el Aviso de Privacidad y la autorización de envío antes de continuar.',
+      form_privacy_error: 'Por favor acepta el Aviso de Privacidad y la autorización de envío antes de continuar.',
       form_feedback: '¡Gracias por su solicitud! Se ha autorizado y preparado el envío a thehousequetzal@icloud.com y WhatsApp (+52 984 125 6251).',
       form_submit: 'Enviar por Correo',
       form_submit_wa: 'Enviar por WhatsApp',
@@ -484,7 +494,7 @@
       footer_nav_4: 'Ubicación, Cenotes y Transporte en Tulum',
       footer_nav_5: 'Reservación Directa',
       footer_concierge_title: 'Contacto & Ubicación Legal',
-      footer_concierge_sub: 'Información de Tulum · TQO / Tren Maya',
+      footer_concierge_sub: 'Información de Tulum · Alta Conectividad',
       footer_social_title: 'Legal & Cumplimiento',
       footer_soc_1: 'Aviso de Privacidad (LFPDPPP / GDPR)',
       footer_soc_2: 'Términos y Condiciones de Estancia',
@@ -501,10 +511,16 @@
       cookie_modal_title: 'Centro de Preferencias de Privacidad y Cookies',
       cookie_essential_t: 'Cookies Técnicas y Esenciales (Siempre Activas)',
       cookie_essential_d: 'Necesarias para la navegación, selección de idioma (ES/EN/FR/IT), seguridad y funcionamiento del formulario de reserva.',
+      cookie_nec_t: 'Cookies Técnicas y Esenciales (Siempre Activas)',
+      cookie_nec_d: 'Necesarias para la navegación, selección de idioma (ES/EN/FR/IT), seguridad y funcionamiento del formulario de reserva.',
       cookie_analytics_t: 'Cookies Analíticas y de Rendimiento (Google)',
       cookie_analytics_d: 'Permiten medir el rendimiento de búsqueda, visitas y velocidad de carga para mejorar la experiencia del sitio.',
+      cookie_ana_t: 'Cookies Analíticas y de Rendimiento (Google)',
+      cookie_ana_d: 'Permiten medir el rendimiento de búsqueda, visitas y velocidad de carga para mejorar la experiencia del sitio.',
       cookie_marketing_t: 'Cookies de Marketing y Redes Sociales (Meta)',
       cookie_marketing_d: 'Utilizadas para mostrar contenido relevante e integración con plataformas de Meta (WhatsApp, Instagram y Facebook).',
+      cookie_mkt_t: 'Cookies de Marketing y Redes Sociales (Meta)',
+      cookie_mkt_d: 'Utilizadas para mostrar contenido relevante e integración con plataformas de Meta (WhatsApp, Instagram y Facebook).',
       cookie_save: 'Guardar Preferencias'
     },
     EN: {
@@ -523,20 +539,27 @@
       hero_cta_book: 'Book Experience',
       hero_cta_video: 'Watch Video',
       video_modal_title: 'The Villa House · Official Video with Sound',
-      pill_1_title: 'Private Pool',
-      pill_1_sub: 'Curved organic design',
-      pill_2_title: '2 Bedrooms · 6 Guests',
-      pill_2_sub: '2.5 Baths · Master suites',
-      pill_3_title: 'Maya Train & TQO',
-      pill_3_sub: 'Tulum Connectivity',
-      pill_4_title: '100% Privacy',
-      pill_4_sub: 'Lush jungle immersion',
-      concept_overline: 'The Concept',
+      concept_overline: 'The Concept · Live KPIs',
       concept_title: 'Serene luxury where nature draws every line',
-      stat_1_label: 'Total Area',
-      stat_2_label: 'Up to 6 Guests',
-      stat_3_label: 'Bedroom Suites',
-      stat_4_label: 'Bathrooms (2.5)',
+      concept_kpi_hint: 'Live Property Metrics · Tap any card',
+      kpi_1_badge: 'Private Grounds',
+      stat_1_label: 'Total Property Area',
+      stat_1_sub: 'Jungle garden, Mayan limestone terrace, private pool & residence',
+      kpi_2_badge: 'Optimal Capacity',
+      stat_2_label: 'Guests in Total Comfort',
+      stat_2_sub: 'Full private villa · Intimate social events across 750 m²',
+      kpi_3_badge: 'Signature Rest',
+      kpi_3_unit: 'Suites',
+      stat_3_label: 'Air-Conditioned Bedroom Suites',
+      stat_3_sub: '1 King Master Suite + 1 Family Suite (Queen + 2 Twin Beds)',
+      kpi_4_badge: 'Artisanal Finishes',
+      kpi_4_unit: 'Baths',
+      stat_4_label: '2 Full Baths + 1 Half Bath',
+      stat_4_sub: 'Handcrafted live-edge parota wood vanities, limestone & outdoor shower',
+      kpi_strip_1: 'Gated Privacy',
+      kpi_strip_2: 'High-Speed Wi-Fi',
+      kpi_strip_3: 'Concierge Support',
+      kpi_strip_4: 'Curated Photos',
       gal_overline: 'Visual Collection · 29 Curated Photographs',
       gal_title: 'Architecture that Breathes Nature',
       gal_desc: 'Every space has been conceived to blur the boundaries between indoor comfort and lush tropical vegetation. Tap or click any photograph to enlarge.',
@@ -620,11 +643,12 @@
       tr_4_title: 'ADO Buses, Bike Paths & Local Mobility',
       tr_4_desc: 'ADO bus terminal in downtown Tulum, shared vans along Highway 307, local taxis, private vehicles, and bike paths to the coast.',
       mob_maps_btn: 'View Location in Google Maps',
+      mob_coords_btn: 'View Location in Google Maps',
       mob_coords: 'Coordinates: 20°12\'44.2"N 87°26\'18.8"W',
       book_overline: 'Exclusive Direct Booking',
       book_title: 'Secure your stay at The Villa House',
-      book_desc: 'Privileged direct rates with no intermediaries, personalized welcome service, local organic amenities, and 24/7 concierge assistance.',
-      book_price_sub: 'USD / night (Full Private Villa · 2 Bedrooms · 2.5 Baths · Up to 6 Guests)',
+      book_desc: 'Direct personalized attention with no intermediaries, welcome service, local organic amenities, and 24/7 concierge assistance.',
+      book_villa_specs: 'Full Private Villa · 750 m² · 2 Suites · 2.5 Baths · Up to 6 Guests',
       book_perk_1: 'Flexible cancellation up to 14 days prior',
       book_perk_2: 'Personalized attention and total jungle privacy',
       form_title: 'Plan your arrival',
@@ -637,7 +661,9 @@
       form_opt_event: 'Social Event / Private Celebration Rental (750 m²)',
       form_email_label: 'Contact Email',
       form_consent_html: 'I have read and accept the <a href="privacidad.html" class="underline text-primary font-medium hover:text-secondary">Privacy Policy</a> and <a href="privacidad.html#terminos" class="underline text-primary font-medium hover:text-secondary">Terms of Stay</a>, and I authorize the processing of my data to receive booking information via email or WhatsApp.',
+      form_privacy_consent: 'I have read and accept the <a href="privacidad.html" class="underline text-primary font-medium hover:text-secondary">Privacy Policy</a> and <a href="privacidad.html#terminos" class="underline text-primary font-medium hover:text-secondary">Terms of Stay</a>, and I authorize the processing of my data to receive booking information via email or WhatsApp.',
       form_consent_error: 'Please accept the Privacy Policy and data authorization before submitting.',
+      form_privacy_error: 'Please accept the Privacy Policy and data authorization before submitting.',
       form_feedback: 'Thank you for your inquiry! Authorized and prepared for sending to thehousequetzal@icloud.com and WhatsApp (+52 984 125 6251).',
       form_submit: 'Send via Email',
       form_submit_wa: 'Send via WhatsApp',
@@ -651,7 +677,7 @@
       footer_nav_4: 'Location, Cenotes & Tulum Transport',
       footer_nav_5: 'Direct Reservation',
       footer_concierge_title: 'Contact & Legal Location',
-      footer_concierge_sub: 'Tulum Info · TQO / Maya Train',
+      footer_concierge_sub: 'Tulum Info · High Connectivity',
       footer_social_title: 'Legal & Compliance',
       footer_soc_1: 'Privacy Policy (LFPDPPP / GDPR)',
       footer_soc_2: 'Terms & Conditions of Stay',
@@ -668,10 +694,16 @@
       cookie_modal_title: 'Privacy & Cookie Preference Center',
       cookie_essential_t: 'Strictly Necessary Cookies (Always Active)',
       cookie_essential_d: 'Required for navigation, language persistence (ES/EN/FR/IT), security, and booking form operation.',
+      cookie_nec_t: 'Strictly Necessary Cookies (Always Active)',
+      cookie_nec_d: 'Required for navigation, language persistence (ES/EN/FR/IT), security, and booking form operation.',
       cookie_analytics_t: 'Analytics & Performance Cookies (Google)',
       cookie_analytics_d: 'Help us measure search performance, page visits, and loading speed to improve user experience.',
+      cookie_ana_t: 'Analytics & Performance Cookies (Google)',
+      cookie_ana_d: 'Help us measure search performance, page visits, and loading speed to improve user experience.',
       cookie_marketing_t: 'Marketing & Social Media Cookies (Meta)',
       cookie_marketing_d: 'Used to deliver relevant content and seamless integration with Meta platforms (WhatsApp, Instagram, Facebook).',
+      cookie_mkt_t: 'Marketing & Social Media Cookies (Meta)',
+      cookie_mkt_d: 'Used to deliver relevant content and seamless integration with Meta platforms (WhatsApp, Instagram, Facebook).',
       cookie_save: 'Save Preferences'
     },
     FR: {
@@ -690,20 +722,27 @@
       hero_cta_book: 'Réserver l’Expérience',
       hero_cta_video: 'Voir la Vidéo',
       video_modal_title: 'The Villa House · Vidéo Officielle avec Son',
-      pill_1_title: 'Piscine Privée',
-      pill_1_sub: 'Design organique incurvé',
-      pill_2_title: '2 Chambres · 6 Pers.',
-      pill_2_sub: '2.5 Salles de bain · Suites',
-      pill_3_title: 'Train Maya & TQO',
-      pill_3_sub: 'Connectivité à Tulum',
-      pill_4_title: '100% Intimité',
-      pill_4_sub: 'Immersion en jungle vierge',
-      concept_overline: 'Le Concept',
+      concept_overline: 'Le Concept · KPIs en Direct',
       concept_title: 'Un luxe serein où la nature trace chaque ligne',
-      stat_1_label: 'Surface Totale',
-      stat_2_label: 'Jusqu’à 6 Hôtes',
-      stat_3_label: 'Suites Chambres',
-      stat_4_label: 'Salles de Bain (2.5)',
+      concept_kpi_hint: 'Indicateurs Clés · Touchez chaque carte',
+      kpi_1_badge: 'Domaine Privé',
+      stat_1_label: 'Surface Totale de la Propriété',
+      stat_1_sub: 'Jardin tropical, terrasse en pierre calcaire, piscine privée et résidence',
+      kpi_2_badge: 'Capacité Optimale',
+      stat_2_label: 'Hôtes en Confort Absolu',
+      stat_2_sub: 'Villa privée complète · Événements intimes sur 750 m²',
+      kpi_3_badge: 'Repos Signature',
+      kpi_3_unit: 'Suites',
+      stat_3_label: 'Suites Climatisées',
+      stat_3_sub: '1 Suite Parentale King + 1 Suite Familiale (Queen + 2 Lits Simples)',
+      kpi_4_badge: 'Finitions Artisanales',
+      kpi_4_unit: 'Bains',
+      stat_4_label: '2 Salles de Bain + 1 Salle d’Eau',
+      stat_4_sub: 'Plans vasques en bois de parota massif, pierre calcaire et douche extérieure',
+      kpi_strip_1: 'Intimité Clôturée',
+      kpi_strip_2: 'Wi-Fi Haut Débit',
+      kpi_strip_3: 'Service Conciergerie',
+      kpi_strip_4: 'Photos Choisies',
       gal_overline: 'Collection Visuelle · 29 Photographies Choisies',
       gal_title: 'Une Architecture qui Respire la Nature',
       gal_desc: 'Chaque espace a été conçu pour estomper les frontières entre confort intérieur et végétation luxuriante. Touchez ou cliquez sur une photo pour l’agrandir.',
@@ -787,11 +826,12 @@
       tr_4_title: 'Bus ADO, Pistes Cyclables & Mobilité Locale',
       tr_4_desc: 'Gare routière ADO au centre de Tulum, navettes collectives sur la Route 307, taxis locaux, véhicules privés et pistes cyclables vers la côte.',
       mob_maps_btn: 'Voir l’Emplacement sur Google Maps',
+      mob_coords_btn: 'Voir l’Emplacement sur Google Maps',
       mob_coords: 'Coordonnées : 20°12\'44.2"N 87°26\'18.8"W',
       book_overline: 'Réservation Directe Exclusive',
       book_title: 'Réservez votre séjour à The Villa House',
-      book_desc: 'Tarifs privilégiés sans intermédiaires, accueil personnalisé, produits biologiques locaux et conciergerie 24h/24.',
-      book_price_sub: 'USD / nuit (Villa privée complète · 2 Chambres · 2.5 Salles de bain · Jusqu’à 6 Pers.)',
+      book_desc: 'Attention personnalisée sans intermédiaires, accueil sur mesure, produits biologiques locaux et conciergerie 24h/24.',
+      book_villa_specs: 'Villa Privée Complète · 750 m² · 2 Suites · 2.5 Salles de Bain · Max 6 Pers.',
       book_perk_1: 'Annulation flexible jusqu’à 14 jours avant',
       book_perk_2: 'Attention personnalisée et intimité totale dans la jungle',
       form_title: 'Planifiez votre arrivée',
@@ -804,7 +844,9 @@
       form_opt_event: 'Location pour Événement Social / Réception Privée (750 m²)',
       form_email_label: 'Email de Contact',
       form_consent_html: 'J’ai lu et j’accepte la <a href="privacidad.html" class="underline text-primary font-medium hover:text-secondary">Politique de Confidentialité</a> et les <a href="privacidad.html#terminos" class="underline text-primary font-medium hover:text-secondary">Conditions de Séjour</a>, et j’autorise l’envoi de mes données pour recevoir des informations par email ou WhatsApp.',
+      form_privacy_consent: 'J’ai lu et j’accepte la <a href="privacidad.html" class="underline text-primary font-medium hover:text-secondary">Politique de Confidentialité</a> et les <a href="privacidad.html#terminos" class="underline text-primary font-medium hover:text-secondary">Conditions de Séjour</a>, et j’autorise l’envoi de mes données pour recevoir des informations par email ou WhatsApp.',
       form_consent_error: 'Veuillez accepter la Politique de Confidentialité et l’autorisation d’envoi avant de continuer.',
+      form_privacy_error: 'Veuillez accepter la Politique de Confidentialité et l’autorisation d’envoi avant de continuer.',
       form_feedback: 'Merci pour votre demande ! Envoi autorisé et préparé vers thehousequetzal@icloud.com et WhatsApp (+52 984 125 6251).',
       form_submit: 'Envoyer par Email',
       form_submit_wa: 'Envoyer par WhatsApp',
@@ -818,7 +860,7 @@
       footer_nav_4: 'Emplacement, Cénotes & Transports',
       footer_nav_5: 'Réservation Directe',
       footer_concierge_title: 'Contact & Mentions Légales',
-      footer_concierge_sub: 'Infos Tulum · TQO / Train Maya',
+      footer_concierge_sub: 'Infos Tulum · Haute Connectivité',
       footer_social_title: 'Légal & Conformité',
       footer_soc_1: 'Politique de Confidentialité (RGPD)',
       footer_soc_2: 'Conditions Générales de Séjour',
@@ -835,10 +877,16 @@
       cookie_modal_title: 'Centre de Préférences de Confidentialité et Cookies',
       cookie_essential_t: 'Cookies Techniques et Essentiels (Toujours Actifs)',
       cookie_essential_d: 'Nécessaires à la navigation, à la langue (ES/EN/FR/IT), à la sécurité et au formulaire de réservation.',
+      cookie_nec_t: 'Cookies Techniques et Essentiels (Toujours Actifs)',
+      cookie_nec_d: 'Nécessaires à la navigation, à la langue (ES/EN/FR/IT), à la sécurité et au formulaire de réservation.',
       cookie_analytics_t: 'Cookies Analytiques et de Performance (Google)',
       cookie_analytics_d: 'Permettent de mesurer les performances de recherche, les visites et la vitesse de chargement.',
+      cookie_ana_t: 'Cookies Analytiques et de Performance (Google)',
+      cookie_ana_d: 'Permettent de mesurer les performances de recherche, les visites et la vitesse de chargement.',
       cookie_marketing_t: 'Cookies Marketing et Réseaux Sociaux (Meta)',
       cookie_marketing_d: 'Utilisés pour proposer un contenu pertinent et l’intégration avec les plateformes Meta (WhatsApp, Instagram, Facebook).',
+      cookie_mkt_t: 'Cookies Marketing et Réseaux Sociaux (Meta)',
+      cookie_mkt_d: 'Utilisés pour proposer un contenu pertinent et l’intégration avec les plateformes Meta (WhatsApp, Instagram, Facebook).',
       cookie_save: 'Enregistrer les Préférences'
     },
     IT: {
@@ -857,20 +905,27 @@
       hero_cta_book: 'Prenota Esperienza',
       hero_cta_video: 'Guarda il Video',
       video_modal_title: 'The Villa House · Video Ufficiale con Audio',
-      pill_1_title: 'Piscina Privata',
-      pill_1_sub: 'Design organico curvo',
-      pill_2_title: '2 Camere · 6 Ospiti',
-      pill_2_sub: '2.5 Bagni · Master suite',
-      pill_3_title: 'Tren Maya & TQO',
-      pill_3_sub: 'Connettività a Tulum',
-      pill_4_title: '100% Privacy',
-      pill_4_sub: 'Immersione nella giungla',
-      concept_overline: 'Il Concetto',
+      concept_overline: 'Il Concetto · KPI Dinamici',
       concept_title: 'Lusso sereno dove la natura traccia ogni linea',
-      stat_1_label: 'Superficie Totale',
-      stat_2_label: 'Fino a 6 Ospiti',
-      stat_3_label: 'Camere Suite',
-      stat_4_label: 'Bagni (2.5)',
+      concept_kpi_hint: 'Indicatori Chiave · Tocca ogni scheda',
+      kpi_1_badge: 'Tenuta Privata',
+      stat_1_label: 'Superficie Totale della Proprietà',
+      stat_1_sub: 'Giardino tropicale, terrazza in pietra calcarea, piscina privata e residenza',
+      kpi_2_badge: 'Capacità Ottimale',
+      stat_2_label: 'Ospiti nel Massimo Comfort',
+      stat_2_sub: 'Villa privata intera · Eventi intimi su 750 m²',
+      kpi_3_badge: 'Riposo d’Autore',
+      kpi_3_unit: 'Suite',
+      stat_3_label: 'Camere Suite Climatizzate',
+      stat_3_sub: '1 Master Suite King + 1 Suite Familiare (Queen + 2 Letti Singoli)',
+      kpi_4_badge: 'Finiture Artigianali',
+      kpi_4_unit: 'Bagni',
+      stat_4_label: '2 Bagni Completi + 1 di Servizio',
+      stat_4_sub: 'Piani lavabo in legno parota vivo, pietra calcarea e doccia esterna',
+      kpi_strip_1: 'Privacy Recintata',
+      kpi_strip_2: 'Wi-Fi Alta Velocità',
+      kpi_strip_3: 'Assistenza Concierge',
+      kpi_strip_4: 'Foto Curate',
       gal_overline: 'Collezione Visiva · 29 Fotografie Curate',
       gal_title: 'Architettura che Respira la Natura',
       gal_desc: 'Ogni spazio è stato concepito per dissolvere i confini tra comfort interno e vegetazione lussureggiante. Tocca o clicca su qualsiasi fotografia per ingrandirla.',
@@ -954,11 +1009,12 @@
       tr_4_title: 'Autobus ADO, Piste Ciclabili & Mobilità Locale',
       tr_4_desc: 'Stazione degli autobus ADO nel centro di Tulum, navette collettive sulla Strada 307, taxi locali, auto private e piste ciclabili verso la costa.',
       mob_maps_btn: 'Vedi Posizione su Google Maps',
+      mob_coords_btn: 'Vedi Posizione su Google Maps',
       mob_coords: 'Coordinate: 20°12\'44.2"N 87°26\'18.8"W',
       book_overline: 'Prenotazione Diretta Esclusiva',
       book_title: 'Assicura il tuo soggiorno a The Villa House',
-      book_desc: 'Tariffe privilegiate senza intermediari, servizio di benvenuto personalizzato, prodotti biologici locali e assistenza concierge 24/7.',
-      book_price_sub: 'USD / notte (Villa privata intera · 2 Camere · 2.5 Bagni · Fino a 6 Ospiti)',
+      book_desc: 'Attenzione diretta senza intermediari, servizio di benvenuto personalizzato, prodotti biologici locali e assistenza concierge 24/7.',
+      book_villa_specs: 'Villa Privata Intera · 750 m² · 2 Suite · 2.5 Bagni · Fino a 6 Ospiti',
       book_perk_1: 'Cancellazione flessibile fino a 14 giorni prima',
       book_perk_2: 'Attenzione personalizzata e totale privacy nella giungla',
       form_title: 'Pianifica il tuo arrivo',
@@ -971,7 +1027,9 @@
       form_opt_event: 'Affitto per Evento Sociale / Festa Privata (750 m²)',
       form_email_label: 'Email di Contatto',
       form_consent_html: 'Ho letto e accetto l’<a href="privacidad.html" class="underline text-primary font-medium hover:text-secondary">Informativa sulla Privacy</a> e i <a href="privacidad.html#terminos" class="underline text-primary font-medium hover:text-secondary">Termini di Soggiorno</a>, e autorizzo l’invio dei miei dati per ricevere informazioni via email o WhatsApp.',
+      form_privacy_consent: 'Ho letto e accetto l’<a href="privacidad.html" class="underline text-primary font-medium hover:text-secondary">Informativa sulla Privacy</a> e i <a href="privacidad.html#terminos" class="underline text-primary font-medium hover:text-secondary">Termini di Soggiorno</a>, e autorizzo l’invio dei miei dati per ricevere informazioni via email o WhatsApp.',
       form_consent_error: 'Si prega di accettare l’Informativa sulla Privacy e l’autorizzazione all’invio prima di continuare.',
+      form_privacy_error: 'Si prega di accettare l’Informativa sulla Privacy e l’autorizzazione all’invio prima di continuare.',
       form_feedback: 'Grazie per la tua richiesta! Invio autorizzato e preparato a thehousequetzal@icloud.com e WhatsApp (+52 984 125 6251).',
       form_submit: 'Invia per Email',
       form_submit_wa: 'Invia su WhatsApp',
@@ -985,7 +1043,7 @@
       footer_nav_4: 'Posizione, Cenote e Trasporti',
       footer_nav_5: 'Prenotazione Diretta',
       footer_concierge_title: 'Contatto & Sede Legale',
-      footer_concierge_sub: 'Info Tulum · TQO / Tren Maya',
+      footer_concierge_sub: 'Info Tulum · Alta Connettività',
       footer_social_title: 'Legale & Conformità',
       footer_soc_1: 'Informativa sulla Privacy (GDPR)',
       footer_soc_2: 'Termini e Condizioni di Soggiorno',
@@ -1002,10 +1060,16 @@
       cookie_modal_title: 'Centro Preferenze Privacy e Cookie',
       cookie_essential_t: 'Cookie Tecnici ed Essenziali (Sempre Attivi)',
       cookie_essential_d: 'Necessari per la navigazione, la lingua (ES/EN/FR/IT), la sicurezza e il modulo di prenotazione.',
+      cookie_nec_t: 'Cookie Tecnici ed Essenziali (Sempre Attivi)',
+      cookie_nec_d: 'Necessari per la navigazione, la lingua (ES/EN/FR/IT), la sicurezza e il modulo di prenotazione.',
       cookie_analytics_t: 'Cookie Analitici e di Prestazione (Google)',
       cookie_analytics_d: 'Aiutano a misurare le prestazioni di ricerca, le visite e la velocità di caricamento.',
+      cookie_ana_t: 'Cookie Analitici e di Prestazione (Google)',
+      cookie_ana_d: 'Aiutano a misurare le prestazioni di ricerca, le visite e la velocità di caricamento.',
       cookie_marketing_t: 'Cookie di Marketing e Social Media (Meta)',
       cookie_marketing_d: 'Utilizzati per mostrare contenuti pertinenti e l’integrazione con le piattaforme Meta (WhatsApp, Instagram, Facebook).',
+      cookie_mkt_t: 'Cookie di Marketing e Social Media (Meta)',
+      cookie_mkt_d: 'Utilizzati per mostrare contenuti pertinenti e l’integrazione con le piattaforme Meta (WhatsApp, Instagram, Facebook).',
       cookie_save: 'Salva Preferenze'
     }
   };
@@ -1058,17 +1122,30 @@
   setupDialogLightDismiss(lightbox);
 
   const videoModal = document.getElementById('video-modal');
-  const modalVideoPlayer = document.getElementById('modal-video-player');
-  const modalVideoAudioBadge = document.getElementById('modal-video-audio-badge');
+  const modalVideoPlayer = document.getElementById('hero-modal-video') || document.getElementById('modal-video-player');
+  const modalVideoAudioBadge = document.getElementById('video-modal-lang-badge') || document.getElementById('modal-video-audio-badge');
+  const videoModalCloseBtn = document.getElementById('video-modal-close');
+  const heroBgVideo = document.getElementById('hero-bg-video');
   setupDialogLightDismiss(videoModal);
 
   const cookieModal = document.getElementById('cookie-modal');
   setupDialogLightDismiss(cookieModal);
 
-  // Pause modal video whenever dialog closes
-  if (videoModal && modalVideoPlayer) {
+  // Pause modal video and resume background video whenever dialog closes
+  if (videoModal) {
     videoModal.addEventListener('close', () => {
-      modalVideoPlayer.pause();
+      if (modalVideoPlayer) modalVideoPlayer.pause();
+      if (heroBgVideo && heroBgVideo.paused) {
+        const bgPlay = heroBgVideo.play();
+        if (bgPlay && typeof bgPlay.catch === 'function') bgPlay.catch(() => {});
+      }
+    });
+  }
+
+  if (videoModalCloseBtn) {
+    videoModalCloseBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.closeHeroVideoModal();
     });
   }
 
@@ -1078,7 +1155,14 @@
     const langKey = overrideLang && VIDEO_BY_LANG[overrideLang] ? overrideLang : currentLang;
     const targetSrc = VIDEO_BY_LANG[langKey] || VIDEO_BY_LANG.ES;
 
-    if (modalVideoPlayer.getAttribute('src') !== targetSrc) {
+    if (heroBgVideo && !heroBgVideo.paused) {
+      heroBgVideo.pause();
+    }
+
+    const sourceEl = modalVideoPlayer.querySelector('source');
+    const currentSrcAttr = modalVideoPlayer.getAttribute('src') || (sourceEl ? sourceEl.getAttribute('src') : '');
+    if (currentSrcAttr !== targetSrc) {
+      if (sourceEl) sourceEl.setAttribute('src', targetSrc);
       modalVideoPlayer.setAttribute('src', targetSrc);
       modalVideoPlayer.load();
     }
@@ -1107,10 +1191,15 @@
 
     modalVideoPlayer.muted = false;
     modalVideoPlayer.volume = 1.0;
-    modalVideoPlayer.currentTime = 0;
+    try {
+      modalVideoPlayer.currentTime = 0;
+    } catch (_) {}
     const playPromise = modalVideoPlayer.play();
     if (playPromise && typeof playPromise.catch === 'function') {
-      playPromise.catch(() => {});
+      playPromise.catch(() => {
+        // Fallback if browser blocks unmuted autoplay: play with controls visible so user hears audio immediately
+        modalVideoPlayer.controls = true;
+      });
     }
   };
 
@@ -1122,7 +1211,112 @@
     } else {
       videoModal.removeAttribute('open');
     }
+    if (heroBgVideo && heroBgVideo.paused) {
+      const bgPlay = heroBgVideo.play();
+      if (bgPlay && typeof bgPlay.catch === 'function') bgPlay.catch(() => {});
+    }
   };
+
+  // Dynamic KPIs Animation & Interactive Cards (Concept Section)
+  function animateSingleKpiCard(card, durationMs) {
+    if (!card) return;
+    const counter = card.querySelector('.kpi-counter');
+    const bar = card.querySelector('.kpi-progress-bar');
+
+    if (bar) {
+      const targetWidth = bar.getAttribute('data-kpi-width') || '100%';
+      bar.style.transition = 'none';
+      bar.style.width = '0%';
+      void bar.offsetWidth;
+      bar.style.transition = 'width 1.1s cubic-bezier(0.22, 1, 0.36, 1)';
+      bar.style.width = targetWidth;
+    }
+
+    if (counter) {
+      const targetVal = parseFloat(counter.getAttribute('data-kpi-target') || '0');
+      const decimals = parseInt(counter.getAttribute('data-kpi-decimals') || '0', 10);
+      const duration = durationMs || 1200;
+      const startTime = performance.now();
+
+      function tick(now) {
+        const elapsed = now - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        const currentVal = targetVal * eased;
+        counter.textContent = decimals > 0 ? currentVal.toFixed(decimals) : String(Math.round(currentVal));
+        if (progress < 1) {
+          requestAnimationFrame(tick);
+        } else {
+          counter.textContent = decimals > 0 ? targetVal.toFixed(decimals) : String(targetVal);
+        }
+      }
+
+      requestAnimationFrame(tick);
+    }
+  }
+
+  function initDynamicKpis() {
+    const kpiSection = document.getElementById('concepto-kpis');
+    const kpiCards = document.querySelectorAll('.kpi-card');
+    if (!kpiSection || kpiCards.length === 0) return;
+
+    let hasAnimatedOnce = false;
+    let activeSpotIndex = 0;
+    let spotlightInterval = null;
+
+    function highlightCard(index) {
+      kpiCards.forEach((c, idx) => {
+        if (idx === index) {
+          c.classList.add('ring-2', 'ring-primary/35', 'bg-white', 'shadow-lg');
+        } else {
+          c.classList.remove('ring-2', 'ring-primary/35', 'bg-white', 'shadow-lg');
+        }
+      });
+    }
+
+    function runAllKpis() {
+      if (hasAnimatedOnce) return;
+      hasAnimatedOnce = true;
+      kpiCards.forEach((card, idx) => {
+        setTimeout(() => {
+          animateSingleKpiCard(card, 1250);
+        }, idx * 130);
+      });
+      highlightCard(0);
+      spotlightInterval = setInterval(() => {
+        activeSpotIndex = (activeSpotIndex + 1) % kpiCards.length;
+        highlightCard(activeSpotIndex);
+      }, 4200);
+    }
+
+    kpiCards.forEach((card, idx) => {
+      card.addEventListener('click', () => {
+        if (spotlightInterval) {
+          clearInterval(spotlightInterval);
+          spotlightInterval = null;
+        }
+        activeSpotIndex = idx;
+        highlightCard(idx);
+        animateSingleKpiCard(card, 750);
+      });
+    });
+
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            runAllKpis();
+            observer.disconnect();
+          }
+        });
+      }, { threshold: 0.18 });
+      observer.observe(kpiSection);
+    } else {
+      runAllKpis();
+    }
+  }
+
+  initDynamicKpis();
 
   // Render all 29 gallery cards
   function renderGalleryGrid() {
@@ -1351,6 +1545,10 @@
     // Pre-update modal video source if modal is closed so it's ready for the chosen language
     if (modalVideoPlayer && (!videoModal || !videoModal.open)) {
       const targetSrc = VIDEO_BY_LANG[currentLang] || VIDEO_BY_LANG.ES;
+      const sourceEl = modalVideoPlayer.querySelector('source');
+      if (sourceEl && sourceEl.getAttribute('src') !== targetSrc) {
+        sourceEl.setAttribute('src', targetSrc);
+      }
       if (modalVideoPlayer.getAttribute('src') !== targetSrc) {
         modalVideoPlayer.setAttribute('src', targetSrc);
       }
@@ -1416,7 +1614,7 @@
 
   function validateBookingConsent() {
     const consentCheckbox = document.getElementById('privacy-consent');
-    const consentError = document.getElementById('consent-error-msg');
+    const consentError = document.getElementById('privacy-error-msg') || document.getElementById('consent-error-msg');
     if (consentCheckbox && !consentCheckbox.checked) {
       if (consentError) consentError.classList.remove('hidden');
       consentCheckbox.focus();
@@ -1429,7 +1627,7 @@
   const consentCheckboxEl = document.getElementById('privacy-consent');
   if (consentCheckboxEl) {
     consentCheckboxEl.addEventListener('change', () => {
-      const consentError = document.getElementById('consent-error-msg');
+      const consentError = document.getElementById('privacy-error-msg') || document.getElementById('consent-error-msg');
       if (consentCheckboxEl.checked && consentError) {
         consentError.classList.add('hidden');
       }
@@ -1527,8 +1725,8 @@
 
   // Cookie Consent Management (LFPDPPP / GDPR / Google & Meta Compliance)
   const cookieBanner = document.getElementById('cookie-consent-banner');
-  const chkAnalytics = document.getElementById('cookie-chk-analytics');
-  const chkMarketing = document.getElementById('cookie-chk-marketing');
+  const chkAnalytics = document.getElementById('cookie-analytics-toggle') || document.getElementById('cookie-chk-analytics');
+  const chkMarketing = document.getElementById('cookie-marketing-toggle') || document.getElementById('cookie-chk-marketing');
 
   function saveCookieConsent(consentObj) {
     try {

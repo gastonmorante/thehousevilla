@@ -249,18 +249,23 @@
     <!-- VIDEO & COOKIE MODALS -->
     <dialog aria-label="Video Oficial The House Villa" class="m-auto bg-transparent p-0 max-w-5xl w-[96vw] sm:w-[92vw] overflow-visible outline-none backdrop:bg-black/90" closedby="any" id="video-modal">
       <div class="relative flex flex-col w-full bg-primary/95 border border-white/15 rounded-2xl sm:rounded-3xl p-3 sm:p-6 shadow-2xl text-white">
-        <div class="w-full flex flex-wrap items-center justify-between gap-3 mb-3">
-          <div class="flex items-center gap-2.5">
+        <div class="w-full flex flex-wrap items-center justify-between gap-2 sm:gap-3 mb-3">
+          <div class="flex flex-wrap items-center gap-2">
             <span class="w-2.5 h-2.5 rounded-full bg-secondary animate-pulse"></span>
-            <h3 class="font-title-md text-sm sm:text-base text-white" data-i18n="video_modal_title">The Villa House · Video Oficial</h3>
+            <h3 class="font-title-md text-xs sm:text-base text-white" data-i18n="video_modal_title">The Villa House · Video Oficial</h3>
             <span class="px-2.5 py-0.5 rounded-full bg-white/10 text-secondary-fixed font-label-sm text-[10px] uppercase tracking-wider" id="video-modal-lang-badge">Audio: Español (THV2 ESP)</span>
           </div>
-          <button aria-label="Cerrar video" class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/10 hover:bg-secondary text-white flex items-center justify-center transition-colors" id="video-modal-close" type="button">
-            <span class="material-symbols-outlined text-xl">close</span>
-          </button>
+          <div class="flex items-center gap-1.5 sm:gap-2">
+            <button class="video-lang-pill px-2.5 py-1 rounded-lg text-[10px] font-semibold uppercase tracking-wider border transition-colors bg-secondary text-white border-secondary" data-vlang="ES" onclick="openHeroVideoModal('ES')" type="button">ES / IT</button>
+            <button class="video-lang-pill px-2.5 py-1 rounded-lg text-[10px] font-semibold uppercase tracking-wider border transition-colors bg-white/10 text-white/80 border-white/20 hover:bg-white/20" data-vlang="EN" onclick="openHeroVideoModal('EN')" type="button">EN</button>
+            <button class="video-lang-pill px-2.5 py-1 rounded-lg text-[10px] font-semibold uppercase tracking-wider border transition-colors bg-white/10 text-white/80 border-white/20 hover:bg-white/20" data-vlang="FR" onclick="openHeroVideoModal('FR')" type="button">FR</button>
+            <button aria-label="Cerrar video" class="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white/10 hover:bg-secondary text-white flex items-center justify-center transition-colors ml-1" id="video-modal-close" onclick="closeHeroVideoModal()" type="button">
+              <span class="material-symbols-outlined text-xl">close</span>
+            </button>
+          </div>
         </div>
         <div class="relative w-full aspect-video rounded-xl sm:rounded-2xl overflow-hidden bg-black shadow-2xl border border-white/10">
-          <video class="w-full h-full object-contain" controls id="hero-modal-video" playsinline poster="Fotos TheVillaHouse - Curadas/DSC00330.webp">
+          <video class="w-full h-full object-contain" controls id="hero-modal-video" playsinline poster="Fotos TheVillaHouse - Curadas/DSC00330.webp" preload="metadata" src="assets/videos/thv2-esp.mp4">
             <source src="assets/videos/thv2-esp.mp4" type="video/mp4">
           </video>
         </div>
@@ -323,7 +328,7 @@
     <a class="flex flex-col items-center justify-center py-1 px-2 text-on-surface-variant" href="galeria.html"><span class="material-symbols-outlined text-[20px]">photo_library</span><span class="text-[10px] uppercase mt-0.5" data-i18n="nav_gallery">Galería</span></a>
     <a class="flex flex-col items-center justify-center py-1 px-2 text-primary font-bold" href="tour-360.html"><span class="material-symbols-outlined text-[20px]">360</span><span class="text-[10px] uppercase mt-0.5">360°</span></a>
     <a class="flex flex-col items-center justify-center py-1 px-2 text-on-surface-variant" href="eventos.html"><span class="material-symbols-outlined text-[20px]">celebration</span><span class="text-[10px] uppercase mt-0.5" data-i18n="nav_events_short">Eventos</span></a>
-    <a class="flex flex-col items-center justify-center py-1 px-3 rounded-xl bg-secondary text-white" href="reservas.html"><span class="material-symbols-outlined text-[20px]">event_available</span><span class="text-[10px] font-semibold uppercase mt-0.5">Reservar</span></a>
+    <a class="flex flex-col items-center justify-center py-1 px-3 rounded-xl bg-secondary text-white" href="reservas.html"><span class="material-symbols-outlined text-[20px]">event_available</span><span class="text-[10px] font-semibold uppercase mt-0.5" data-i18n="nav_book_short">Reservar</span></a>
   </nav>
 
   <!-- FOOTER -->
