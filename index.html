@@ -158,6 +158,7 @@
         <a aria-current="page" class="font-label-lg text-label-lg uppercase tracking-[0.15em] xl:tracking-[0.2em] transition-colors text-primary font-bold px-2.5 xl:px-3 py-2 whitespace-nowrap" data-i18n="nav_villa" data-path="la-villa" href="#">La Villa</a>
         <a class="font-label-lg text-label-lg uppercase tracking-[0.15em] xl:tracking-[0.2em] text-on-surface-variant hover:text-primary transition-colors px-2.5 xl:px-3 py-2 whitespace-nowrap" data-i18n="nav_tour" data-path="tour-virtual-360" href="#tour-virtual">Tour Virtual 360°</a>
         <a class="font-label-lg text-label-lg uppercase tracking-[0.15em] xl:tracking-[0.2em] text-on-surface-variant hover:text-primary transition-colors px-2.5 xl:px-3 py-2 whitespace-nowrap" data-i18n="nav_gallery" data-path="galeria" href="#galeria">Galería</a>
+        <a class="font-label-lg text-label-lg uppercase tracking-[0.15em] xl:tracking-[0.2em] text-on-surface-variant hover:text-primary transition-colors px-2.5 xl:px-3 py-2 whitespace-nowrap" data-i18n="nav_events" data-path="eventos" href="#eventos">Eventos Sociales</a>
         <a class="font-label-lg text-label-lg uppercase tracking-[0.15em] xl:tracking-[0.2em] text-on-surface-variant hover:text-primary transition-colors px-2.5 xl:px-3 py-2 whitespace-nowrap" data-i18n="nav_location" data-path="ubicacion-y-entorno" href="#ubicacion">Ubicación y Entorno</a>
       </nav>
       <div class="flex items-center gap-2 sm:gap-3">
@@ -225,6 +226,10 @@
         <a class="mobile-nav-link flex items-center justify-between px-3.5 py-3 rounded-xl font-label-lg text-xs uppercase tracking-[0.18em] text-on-surface hover:bg-surface-container" href="#galeria">
           <span data-i18n="nav_gallery">Galería</span>
           <span class="material-symbols-outlined text-base text-secondary">photo_library</span>
+        </a>
+        <a class="mobile-nav-link flex items-center justify-between px-3.5 py-3 rounded-xl font-label-lg text-xs uppercase tracking-[0.18em] text-on-surface hover:bg-surface-container" href="#eventos">
+          <span data-i18n="nav_events">Eventos Sociales</span>
+          <span class="material-symbols-outlined text-base text-secondary">celebration</span>
         </a>
         <a class="mobile-nav-link flex items-center justify-between px-3.5 py-3 rounded-xl font-label-lg text-xs uppercase tracking-[0.18em] text-on-surface hover:bg-surface-container" href="#ubicacion">
           <span data-i18n="nav_location">Ubicación y Entorno</span>
@@ -415,8 +420,149 @@
         </div>
       </section>
 
+      <!-- EVENTOS SOCIALES & CELEBRACIONES PRIVADAS -->
+      <section class="w-full py-14 sm:py-20 lg:py-28 bg-surface relative overflow-hidden border-b border-outline-variant/30" id="eventos">
+        <div class="max-w-[1440px] mx-auto px-4 sm:px-margin md:px-margin lg:px-margin-lg">
+          <!-- Section Header -->
+          <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-10 sm:mb-14">
+            <div class="max-w-2xl">
+              <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-secondary/10 border border-secondary/25 mb-3">
+                <span class="material-symbols-outlined text-secondary text-base">celebration</span>
+                <span class="font-label-md text-[10px] sm:text-label-md uppercase tracking-[0.2em] text-secondary font-semibold" data-i18n="ev_overline">Escenario Exclusivo · Renta para Eventos</span>
+              </div>
+              <h2 class="font-headline-lg text-3xl sm:text-headline-lg text-primary tracking-tight font-serif" data-i18n="ev_title">
+                Eventos Sociales y Celebraciones en la Selva
+              </h2>
+              <p class="font-body-md text-sm sm:text-body-md text-on-surface-variant mt-3 leading-relaxed" data-i18n="ev_desc">
+                Además de estancias vacacionales, los 750 m² de predio privado, jardines tropicales, terraza de piedra caliza y piscina tipo cenote de The Villa House se rentan para eventos sociales íntimos, cenas de gala, cócteles nocturnos y celebraciones familiares en total privacidad.
+              </p>
+            </div>
+            <div class="flex flex-wrap items-center gap-3 shrink-0">
+              <a class="inline-flex items-center justify-center h-12 px-6 bg-secondary hover:bg-secondary-container text-white font-label-lg text-xs uppercase tracking-widest rounded-xl shadow-md shadow-secondary/20 transition-all gap-2" href="#reservas" onclick="selectEventBookingOption()">
+                <span class="material-symbols-outlined text-lg">event_available</span>
+                <span data-i18n="ev_cta_form">Cotizar Evento</span>
+              </a>
+              <a class="inline-flex items-center justify-center h-12 px-5 bg-[#25D366] hover:bg-[#1ebe5d] text-white font-label-lg text-xs uppercase tracking-widest rounded-xl shadow-md shadow-[#25D366]/20 transition-all gap-2" href="https://wa.me/529841256251?text=Hola%2C%20me%20gustar%C3%ADa%20cotizar%20la%20renta%20de%20The%20House%20Villa%20(750%20m%C2%B2)%20para%20un%20evento%20social." rel="noopener noreferrer" target="_blank">
+                <svg aria-hidden="true" class="w-4 h-4 fill-current shrink-0" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.126.556 4.122 1.53 5.854l-1.53 5.586 5.736-1.504c1.693.922 3.633 1.448 5.697 1.448 6.627 0 12-5.373 12-12s-5.373-12-12.433-11.384z"/></svg>
+                <span data-i18n="ev_cta_wa">WhatsApp Eventos</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 3 Event Showcase Cards with the Uploaded Curated Photos -->
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8">
+            <!-- Event 1: Cena de Gala / Banquete / Bodas Íntimas -->
+            <article class="group rounded-2xl sm:rounded-3xl bg-surface-container-low border border-outline-variant/40 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 flex flex-col justify-between">
+              <div class="relative aspect-[16/10] w-full overflow-hidden bg-primary-container cursor-pointer" onclick="openEventPhotoModal('Fotos TheVillaHouse - Curadas/evento_gala_cena.webp', '1 / 3')">
+                <img alt="Cena de Gala y Banquete frente a la Piscina Cenote en The Villa House" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" decoding="async" loading="lazy" src="Fotos TheVillaHouse - Curadas/evento_gala_cena.webp">
+                <div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-primary/85 backdrop-blur-md text-white font-label-sm text-[10px] uppercase tracking-widest border border-white/15" data-i18n="ev_1_tag">
+                  Cenas de Gala &amp; Bodas Íntimas
+                </div>
+                <button aria-label="Ampliar imagen" class="absolute bottom-3 right-3 w-9 h-9 rounded-full bg-black/50 hover:bg-secondary text-white flex items-center justify-center backdrop-blur-md border border-white/20 transition-colors" type="button">
+                  <span class="material-symbols-outlined text-lg">open_in_full</span>
+                </button>
+              </div>
+              <div class="p-5 sm:p-7 flex flex-col justify-between flex-1">
+                <div>
+                  <h3 class="font-headline-sm text-xl sm:text-2xl text-primary font-serif mb-2.5" data-i18n="ev_1_title">Banquetes al Atardecer frente al Cenote</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed" data-i18n="ev_1_desc">
+                    Montaje de mesas redondas o imperiales en el jardín y solárium, series de luces cálidas suspendidas, velas flotantes sobre el espejo de agua turquesa y una atmósfera romántica rodeada de selva.
+                  </p>
+                </div>
+                <div class="mt-5 pt-4 border-t border-outline-variant/30 flex items-center gap-2 text-xs text-primary font-medium">
+                  <span class="material-symbols-outlined text-secondary text-lg shrink-0">auto_awesome</span>
+                  <span data-i18n="ev_1_meta">Bodas Boutique · Cenas de Autor · Pedidas de Mano</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Event 2: Cóctel Nocturno / Soirée & Lounge -->
+            <article class="group rounded-2xl sm:rounded-3xl bg-surface-container-low border border-outline-variant/40 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 flex flex-col justify-between">
+              <div class="relative aspect-[16/10] w-full overflow-hidden bg-primary-container cursor-pointer" onclick="openEventPhotoModal('Fotos TheVillaHouse - Curadas/evento_coctel_nocturno.webp', '2 / 3')">
+                <img alt="Cóctel Nocturno y Velada Privada en The Villa House" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" decoding="async" loading="lazy" src="Fotos TheVillaHouse - Curadas/evento_coctel_nocturno.webp">
+                <div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-primary/85 backdrop-blur-md text-white font-label-sm text-[10px] uppercase tracking-widest border border-white/15" data-i18n="ev_2_tag">
+                  Cócteles &amp; Veladas Nocturnas
+                </div>
+                <button aria-label="Ampliar imagen" class="absolute bottom-3 right-3 w-9 h-9 rounded-full bg-black/50 hover:bg-secondary text-white flex items-center justify-center backdrop-blur-md border border-white/20 transition-colors" type="button">
+                  <span class="material-symbols-outlined text-lg">open_in_full</span>
+                </button>
+              </div>
+              <div class="p-5 sm:p-7 flex flex-col justify-between flex-1">
+                <div>
+                  <h3 class="font-headline-sm text-xl sm:text-2xl text-primary font-serif mb-2.5" data-i18n="ev_2_title">Soirées, Aniversarios y Recepciones VIP</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed" data-i18n="ev_2_desc">
+                    Ambiente lounge nocturno alrededor de la piscina cenote iluminada, con mesas altas de cóctel, estación de catering y mixología, arquitectura de piedra caliza iluminada y privacidad total.
+                  </p>
+                </div>
+                <div class="mt-5 pt-4 border-t border-outline-variant/30 flex items-center gap-2 text-xs text-primary font-medium">
+                  <span class="material-symbols-outlined text-secondary text-lg shrink-0">local_bar</span>
+                  <span data-i18n="ev_2_meta">Mixología &amp; Catering · Iluminación Arquitectónica</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Event 3: Celebraciones Familiares & Pool Party -->
+            <article class="group rounded-2xl sm:rounded-3xl bg-surface-container-low border border-outline-variant/40 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 flex flex-col justify-between">
+              <div class="relative aspect-[16/10] w-full overflow-hidden bg-primary-container cursor-pointer" onclick="openEventPhotoModal('Fotos TheVillaHouse - Curadas/evento_celebracion_dia.webp', '3 / 3')">
+                <img alt="Celebración Familiar y Pool Party en The Villa House" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" decoding="async" loading="lazy" src="Fotos TheVillaHouse - Curadas/evento_celebracion_dia.webp">
+                <div class="absolute top-3 left-3 px-3 py-1 rounded-full bg-primary/85 backdrop-blur-md text-white font-label-sm text-[10px] uppercase tracking-widest border border-white/15" data-i18n="ev_3_tag">
+                  Eventos de Día &amp; Familiares
+                </div>
+                <button aria-label="Ampliar imagen" class="absolute bottom-3 right-3 w-9 h-9 rounded-full bg-black/50 hover:bg-secondary text-white flex items-center justify-center backdrop-blur-md border border-white/20 transition-colors" type="button">
+                  <span class="material-symbols-outlined text-lg">open_in_full</span>
+                </button>
+              </div>
+              <div class="p-5 sm:p-7 flex flex-col justify-between flex-1">
+                <div>
+                  <h3 class="font-headline-sm text-xl sm:text-2xl text-primary font-serif mb-2.5" data-i18n="ev_3_title">Cumpleaños, Pool Parties y Convivencias</h3>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed" data-i18n="ev_3_desc">
+                    Amplios espacios exteriores seguros y bardeados de 750 m² con piscina de entrada tipo playa, ideales para celebraciones de cumpleaños, fiestas infantiles, decoración temática e inflables.
+                  </p>
+                </div>
+                <div class="mt-5 pt-4 border-t border-outline-variant/30 flex items-center gap-2 text-xs text-primary font-medium">
+                  <span class="material-symbols-outlined text-secondary text-lg shrink-0">sunny</span>
+                  <span data-i18n="ev_3_meta">Predio de 750 m² · Playa Húmeda · Ambiente Familiar</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Event Features Strip -->
+          <div class="mt-8 sm:mt-10 p-5 sm:p-7 rounded-2xl bg-surface-container-low border border-outline-variant/40 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+            <div class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-secondary text-2xl shrink-0 mt-0.5">straighten</span>
+              <div>
+                <h4 class="font-title-md text-sm text-primary" data-i18n="ev_feat_1_t">Predio Privado de 750 m²</h4>
+                <p class="font-body-sm text-xs text-on-surface-variant mt-0.5" data-i18n="ev_feat_1_d">Jardín selvático, terraza techada, solárium y piscina cenote a tu entera disposición.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-secondary text-2xl shrink-0 mt-0.5">restaurant</span>
+              <div>
+                <h4 class="font-title-md text-sm text-primary" data-i18n="ev_feat_2_t">Acceso a Catering y Mobiliario</h4>
+                <p class="font-body-sm text-xs text-on-surface-variant mt-0.5" data-i18n="ev_feat_2_d">Facilidad logística para montaje de banquetes, chef privado, decoración, flores y música.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-secondary text-2xl shrink-0 mt-0.5">schedule</span>
+              <div>
+                <h4 class="font-title-md text-sm text-primary" data-i18n="ev_feat_3_t">Renta por Evento o con Estancia</h4>
+                <p class="font-body-sm text-xs text-on-surface-variant mt-0.5" data-i18n="ev_feat_3_d">Modalidades flexibles de renta para evento social o combinada con hospedaje (hasta 6 Pax).</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="material-symbols-outlined text-secondary text-2xl shrink-0 mt-0.5">verified_user</span>
+              <div>
+                <h4 class="font-title-md text-sm text-primary" data-i18n="ev_feat_4_t">Privacidad y Exclusividad 100%</h4>
+                <p class="font-body-sm text-xs text-on-surface-variant mt-0.5" data-i18n="ev_feat_4_d">Propiedad completamente bardeada en la selva de Tulum para celebrar con total intimidad.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- UBICACIÓN Y ENTORNO CERCANO (GUÍA INFORMATIVA DE TULUM) -->
-      <section class="w-full py-14 sm:py-20 lg:py-28 bg-surface" id="ubicacion">
+      <section class="w-full py-14 sm:py-20 lg:py-28 bg-surface-container-low" id="ubicacion">
         <div class="max-w-[1440px] mx-auto px-4 sm:px-margin md:px-margin lg:px-margin-lg">
           <div class="text-center max-w-3xl mx-auto mb-10 sm:mb-14">
             <span class="font-label-md text-label-md uppercase tracking-[0.2em] text-secondary font-semibold" data-i18n="loc_overline">Guía Informativa de la Región</span>
@@ -805,12 +951,13 @@
                   <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <!-- Dormitorios & Capacidad -->
                     <div class="flex flex-col">
-                      <label class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant mb-2" data-i18n="form_guests_label" for="guests-count">Alojamiento (Hasta 6 Pax · 2.5 Baños)</label>
+                      <label class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant mb-2" data-i18n="form_guests_label" for="guests-count">Alojamiento / Evento (Hasta 6 Pax · 750 m²)</label>
                       <div class="relative">
                         <select class="w-full h-12 px-4 pr-10 rounded-lg bg-surface border-0 border-b border-primary/40 focus:border-b-2 focus:border-primary text-on-surface font-body-sm text-body-sm outline-none transition-colors appearance-none cursor-pointer" id="guests-count">
                           <option data-i18n="form_opt_2" value="2">1 - 2 Huéspedes · Villa Completa (2 Dorm. / 2.5 Baños)</option>
                           <option data-i18n="form_opt_4" value="4">3 - 4 Huéspedes · Villa Completa (2 Dorm. / 2.5 Baños)</option>
                           <option data-i18n="form_opt_6" selected="" value="6">Hasta 6 Huéspedes (6 Pax) · 2 Dormitorios · 2.5 Baños</option>
+                          <option data-i18n="form_opt_event" value="event">Renta para Evento Social / Celebración Privada (750 m²)</option>
                         </select>
                         <span class="material-symbols-outlined absolute right-3 top-3 text-on-surface-variant pointer-events-none">expand_more</span>
                       </div>
@@ -889,13 +1036,13 @@
       <span class="material-symbols-outlined text-[20px]">home</span>
       <span class="text-[10px] font-medium tracking-wider uppercase mt-0.5" data-i18n="nav_villa">La Villa</span>
     </a>
-    <a class="flex flex-col items-center justify-center py-1 px-2 text-on-surface-variant hover:text-primary transition-colors" href="#tour-virtual">
-      <span class="material-symbols-outlined text-[20px]">360</span>
-      <span class="text-[10px] font-medium tracking-wider uppercase mt-0.5">360°</span>
-    </a>
     <a class="flex flex-col items-center justify-center py-1 px-2 text-on-surface-variant hover:text-primary transition-colors" href="#galeria">
       <span class="material-symbols-outlined text-[20px]">photo_library</span>
       <span class="text-[10px] font-medium tracking-wider uppercase mt-0.5" data-i18n="nav_gallery">Galería</span>
+    </a>
+    <a class="flex flex-col items-center justify-center py-1 px-2 text-on-surface-variant hover:text-primary transition-colors" href="#eventos">
+      <span class="material-symbols-outlined text-[20px]">celebration</span>
+      <span class="text-[10px] font-medium tracking-wider uppercase mt-0.5" data-i18n="nav_events_short">Eventos</span>
     </a>
     <a class="flex flex-col items-center justify-center py-1 px-2 text-on-surface-variant hover:text-primary transition-colors" href="#ubicacion">
       <span class="material-symbols-outlined text-[20px]">explore</span>
@@ -929,6 +1076,7 @@
             <li class="py-space-xs"><a class="hover:text-primary transition-colors" data-i18n="footer_nav_1" data-path="la-villa" href="#">La Residencia (2 Dormitorios · 2.5 Baños · 6 Pax)</a></li>
             <li class="py-space-xs"><a class="hover:text-primary transition-colors" data-i18n="footer_nav_2" data-path="tour-virtual-360" href="#tour-virtual">Recorrido Inmersivo 360°</a></li>
             <li class="py-space-xs"><a class="hover:text-primary transition-colors" data-i18n="footer_nav_3" data-path="galeria" href="#galeria">Colección y Arquitectura (29 Fotos)</a></li>
+            <li class="py-space-xs"><a class="hover:text-primary transition-colors" data-i18n="footer_nav_ev" data-path="eventos" href="#eventos">Eventos Sociales y Celebraciones</a></li>
             <li class="py-space-xs"><a class="hover:text-primary transition-colors" data-i18n="footer_nav_4" data-path="ubicacion-y-entorno" href="#ubicacion">Ubicación, Cenotes y Transporte</a></li>
             <li class="py-space-xs"><a class="hover:text-primary transition-colors" data-i18n="footer_nav_5" data-path="reservar-experiencia" href="#reservas">Reservación Exclusiva</a></li>
           </ul>
@@ -1472,6 +1620,8 @@
           nav_villa: 'La Villa',
           nav_tour: 'Tour Virtual 360°',
           nav_gallery: 'Galería',
+          nav_events: 'Eventos Sociales',
+          nav_events_short: 'Eventos',
           nav_location: 'Ubicación y Entorno',
           nav_book: 'Reservar Experiencia',
           lang_select_title: 'Seleccionar Idioma',
@@ -1505,6 +1655,31 @@
           filter_social: 'Áreas Sociales (10)',
           filter_suites: 'Suites & Baños (6)',
           filter_interior: 'Cocina & Detalles (5)',
+          ev_overline: 'Escenario Exclusivo · Renta para Eventos',
+          ev_title: 'Eventos Sociales y Celebraciones en la Selva',
+          ev_desc: 'Además de estancias vacacionales, los 750 m² de predio privado, jardines tropicales, terraza de piedra caliza y piscina tipo cenote de The Villa House se rentan para eventos sociales íntimos, cenas de gala, cócteles nocturnos y celebraciones familiares en total privacidad.',
+          ev_cta_form: 'Cotizar Evento',
+          ev_cta_wa: 'WhatsApp Eventos',
+          ev_1_tag: 'Cenas de Gala & Bodas Íntimas',
+          ev_1_title: 'Banquetes al Atardecer frente al Cenote',
+          ev_1_desc: 'Montaje de mesas redondas o imperiales en el jardín y solárium, series de luces cálidas suspendidas, velas flotantes sobre el espejo de agua turquesa y una atmósfera romántica rodeada de selva.',
+          ev_1_meta: 'Bodas Boutique · Cenas de Autor · Pedidas de Mano',
+          ev_2_tag: 'Cócteles & Veladas Nocturnas',
+          ev_2_title: 'Soirées, Aniversarios y Recepciones VIP',
+          ev_2_desc: 'Ambiente lounge nocturno alrededor de la piscina cenote iluminada, con mesas altas de cóctel, estación de catering y mixología, arquitectura de piedra caliza iluminada y privacidad total.',
+          ev_2_meta: 'Mixología & Catering · Iluminación Arquitectónica',
+          ev_3_tag: 'Eventos de Día & Familiares',
+          ev_3_title: 'Cumpleaños, Pool Parties y Convivencias',
+          ev_3_desc: 'Amplios espacios exteriores seguros y bardeados de 750 m² con piscina de entrada tipo playa, ideales para celebraciones de cumpleaños, fiestas infantiles, decoración temática e inflables.',
+          ev_3_meta: 'Predio de 750 m² · Playa Húmeda · Ambiente Familiar',
+          ev_feat_1_t: 'Predio Privado de 750 m²',
+          ev_feat_1_d: 'Jardín selvático, terraza techada, solárium y piscina cenote a tu entera disposición.',
+          ev_feat_2_t: 'Acceso a Catering y Mobiliario',
+          ev_feat_2_d: 'Facilidad logística para montaje de banquetes, chef privado, decoración, flores y música.',
+          ev_feat_3_t: 'Renta por Evento o con Estancia',
+          ev_feat_3_d: 'Modalidades flexibles de renta para evento social o combinada con hospedaje (hasta 6 Pax).',
+          ev_feat_4_t: 'Privacidad y Exclusividad 100%',
+          ev_feat_4_d: 'Propiedad completamente bardeada en la selva de Tulum para celebrar con total intimidad.',
           loc_overline: 'Guía Informativa de la Región',
           loc_title: 'Ubicación, Cenotes y Entorno de Tulum',
           loc_desc: 'Información práctica sobre los cenotes sagrados, sitios arqueológicos, reservas naturales y vías de comunicación que rodean la zona de Tulum.',
@@ -1574,10 +1749,11 @@
           form_title: 'Planifica tu llegada',
           form_checkin: 'Check-in',
           form_checkout: 'Check-out',
-          form_guests_label: 'Alojamiento (Hasta 6 Pax · 2.5 Baños)',
+          form_guests_label: 'Alojamiento / Evento (Hasta 6 Pax · 750 m²)',
           form_opt_2: '1 - 2 Huéspedes · Villa Completa (2 Dorm. / 2.5 Baños)',
           form_opt_4: '3 - 4 Huéspedes · Villa Completa (2 Dorm. / 2.5 Baños)',
           form_opt_6: 'Hasta 6 Huéspedes (6 Pax) · 2 Dormitorios · 2.5 Baños',
+          form_opt_event: 'Renta para Evento Social / Celebración Privada (750 m²)',
           form_email_label: 'Correo de Contacto',
           form_feedback: '¡Gracias por su solicitud! Se ha preparado el envío a thehousequetzal@icloud.com y WhatsApp (+52 984 125 6251).',
           form_submit: 'Enviar por Correo',
@@ -1588,6 +1764,7 @@
           footer_nav_1: 'La Residencia (2 Dormitorios · 2.5 Baños · 6 Pax)',
           footer_nav_2: 'Recorrido Inmersivo 360°',
           footer_nav_3: 'Colección y Arquitectura (29 Fotos)',
+          footer_nav_ev: 'Eventos Sociales y Celebraciones',
           footer_nav_4: 'Ubicación, Cenotes y Transporte',
           footer_nav_5: 'Reservación Exclusiva',
           footer_concierge_title: 'Contacto & Ubicación',
@@ -1604,6 +1781,8 @@
           nav_villa: 'The Villa',
           nav_tour: '360° Virtual Tour',
           nav_gallery: 'Gallery',
+          nav_events: 'Social Events',
+          nav_events_short: 'Events',
           nav_location: 'Location & Surroundings',
           nav_book: 'Book Experience',
           lang_select_title: 'Select Language',
@@ -1637,6 +1816,31 @@
           filter_social: 'Social Areas (10)',
           filter_suites: 'Suites & Baths (6)',
           filter_interior: 'Kitchen & Details (5)',
+          ev_overline: 'Exclusive Venue · Event Rental',
+          ev_title: 'Social Events & Private Celebrations in the Jungle',
+          ev_desc: 'Beyond luxury vacation stays, The Villa House’s 750 m² private estate, tropical gardens, limestone terrace, and cenote pool are available for intimate social events, gala dinners, evening cocktails, and family celebrations.',
+          ev_cta_form: 'Inquire for Event',
+          ev_cta_wa: 'WhatsApp Events',
+          ev_1_tag: 'Gala Dinners & Intimate Weddings',
+          ev_1_title: 'Sunset Banquets by the Cenote Pool',
+          ev_1_desc: 'Round or imperial banquet table setups across the garden and sun deck, warm overhead string lights, floating candles on the turquoise water mirror, and a romantic jungle ambiance.',
+          ev_1_meta: 'Boutique Weddings · Chef Dinners · Proposals',
+          ev_2_tag: 'Cocktails & Evening Soirées',
+          ev_2_title: 'Soirées, Anniversaries & VIP Receptions',
+          ev_2_desc: 'Evening lounge atmosphere around the illuminated cenote pool featuring high cocktail tables, mixology and catering station, dramatic limestone lighting, and total privacy.',
+          ev_2_meta: 'Mixology & Catering · Architectural Lighting',
+          ev_3_tag: 'Daytime & Family Celebrations',
+          ev_3_title: 'Birthdays, Pool Parties & Gatherings',
+          ev_3_desc: 'Spacious, fully walled 750 m² outdoor grounds with a shallow beach-entry pool, ideal for birthday celebrations, kids’ parties, themed decor, and daytime family gatherings.',
+          ev_3_meta: '750 m² Private Grounds · Sun Shelf · Family Friendly',
+          ev_feat_1_t: '750 m² Private Estate',
+          ev_feat_1_d: 'Jungle garden, covered portico, sun deck, and cenote pool exclusively for your guests.',
+          ev_feat_2_t: 'Catering & Event Setup Ready',
+          ev_feat_2_d: 'Smooth logistics for banquet tables, private chefs, floral design, decor, and music.',
+          ev_feat_3_t: 'Day Event or Stay + Event',
+          ev_feat_3_d: 'Flexible rental options for a standalone event or combined with overnight stay (up to 6 Guests).',
+          ev_feat_4_t: '100% Privacy & Exclusivity',
+          ev_feat_4_d: 'Fully enclosed sanctuary in the Tulum jungle to celebrate in complete intimacy.',
           loc_overline: 'Regional Information Guide',
           loc_title: 'Location, Cenotes & Tulum Surroundings',
           loc_desc: 'Practical information on the sacred cenotes, archaeological sites, nature reserves, and transport links surrounding the Tulum area.',
@@ -1706,10 +1910,11 @@
           form_title: 'Plan your arrival',
           form_checkin: 'Check-in',
           form_checkout: 'Check-out',
-          form_guests_label: 'Accommodation (Up to 6 Guests · 2.5 Baths)',
+          form_guests_label: 'Accommodation / Event (Up to 6 Guests · 750 m²)',
           form_opt_2: '1 - 2 Guests · Full Villa (2 Bed / 2.5 Bath)',
           form_opt_4: '3 - 4 Guests · Full Villa (2 Bed / 2.5 Bath)',
           form_opt_6: 'Up to 6 Guests (6 Pax) · 2 Bedrooms · 2.5 Baths',
+          form_opt_event: 'Social Event / Private Celebration Rental (750 m²)',
           form_email_label: 'Contact Email',
           form_feedback: 'Thank you for your inquiry! Prepared for sending to thehousequetzal@icloud.com and WhatsApp (+52 984 125 6251).',
           form_submit: 'Send via Email',
@@ -1720,6 +1925,7 @@
           footer_nav_1: 'The Residence (2 Bedrooms · 2.5 Baths · 6 Guests)',
           footer_nav_2: '360° Immersive Tour',
           footer_nav_3: 'Collection & Architecture (29 Photos)',
+          footer_nav_ev: 'Social Events & Celebrations',
           footer_nav_4: 'Location, Cenotes & Transport',
           footer_nav_5: 'Exclusive Reservation',
           footer_concierge_title: 'Contact & Location',
@@ -1736,6 +1942,8 @@
           nav_villa: 'La Villa',
           nav_tour: 'Visite Virtuelle 360°',
           nav_gallery: 'Galerie',
+          nav_events: 'Événements Sociaux',
+          nav_events_short: 'Événements',
           nav_location: 'Emplacement & Cadre',
           nav_book: 'Réserver l’Expérience',
           lang_select_title: 'Choisir la Langue',
@@ -1769,6 +1977,31 @@
           filter_social: 'Espaces Sociaux (10)',
           filter_suites: 'Suites & Bains (6)',
           filter_interior: 'Cuisine & Détails (5)',
+          ev_overline: 'Lieu Exclusif · Location pour Événements',
+          ev_title: 'Événements Sociaux & Célébrations dans la Jungle',
+          ev_desc: 'En plus des séjours de vacances, le domaine privé de 750 m², les jardins tropicaux, la terrasse en pierre calcaire et la piscine cénoté de The Villa House se louent pour des événements sociaux intimes, dîners de gala, cocktails nocturnes et fêtes familiales.',
+          ev_cta_form: 'Devis Événement',
+          ev_cta_wa: 'WhatsApp Événements',
+          ev_1_tag: 'Dîners de Gala & Mariages Intimes',
+          ev_1_title: 'Banquets au Coucher du Soleil face au Cénoté',
+          ev_1_desc: 'Tables rondes ou impériales dressées dans le jardin et le solarium, guirlandes lumineuses chaleureuses, bougies flottantes sur l’eau turquoise et atmosphère romantique dans la jungle.',
+          ev_1_meta: 'Mariages Boutique · Dîners d’Auteur · Réceptions',
+          ev_2_tag: 'Cocktails & Soirées Privées',
+          ev_2_title: 'Soirées, Anniversaires & Réceptions VIP',
+          ev_2_desc: 'Ambiance lounge nocturne autour de la piscine cénoté illuminée avec mange-debout, bar de mixologie et traiteur, façade en pierre éclairée et intimité absolue.',
+          ev_2_meta: 'Mixologie & Traiteur · Éclairage Architectural',
+          ev_3_tag: 'Événements de Jour & Famille',
+          ev_3_title: 'Anniversaires, Pool Parties & Réunions',
+          ev_3_desc: 'Vastes espaces extérieurs sécurisés et clos de 750 m² avec piscine à entrée plage, parfaits pour les anniversaires, fêtes d’enfants, décorations à thème et structures gonflables.',
+          ev_3_meta: 'Domaine de 750 m² · Plage Immergée · Cadre Familial',
+          ev_feat_1_t: 'Domaine Privé de 750 m²',
+          ev_feat_1_d: 'Jardin tropical, terrasse couverte, solarium et piscine cénoté à votre entière disposition.',
+          ev_feat_2_t: 'Accès Traiteur & Mobilier',
+          ev_feat_2_d: 'Logistique fluide pour l’installation de banquets, chef privé, décoration florale et musique.',
+          ev_feat_3_t: 'Location Événement ou avec Séjour',
+          ev_feat_3_d: 'Formules flexibles pour un événement à la journée ou combiné avec hébergement (jusqu’à 6 Pers.).',
+          ev_feat_4_t: 'Intimité & Exclusivité 100%',
+          ev_feat_4_d: 'Propriété entièrement close dans la jungle de Tulum pour célébrer en toute discrétion.',
           loc_overline: 'Guide d’Information Régional',
           loc_title: 'Emplacement, Cénotes & Environs de Tulum',
           loc_desc: 'Informations pratiques sur les cénotes sacrés, les sites archéologiques, les réserves naturelles et les voies de transport autour de Tulum.',
@@ -1838,10 +2071,11 @@
           form_title: 'Planifiez votre arrivée',
           form_checkin: 'Arrivée (Check-in)',
           form_checkout: 'Départ (Check-out)',
-          form_guests_label: 'Hébergement (Jusqu’à 6 Pers. · 2.5 Bains)',
+          form_guests_label: 'Hébergement / Événement (Max 6 Pers. · 750 m²)',
           form_opt_2: '1 - 2 Hôtes · Villa Complète (2 Ch. / 2.5 Bains)',
           form_opt_4: '3 - 4 Hôtes · Villa Complète (2 Ch. / 2.5 Bains)',
           form_opt_6: 'Jusqu’à 6 Hôtes (6 Pax) · 2 Chambres · 2.5 Bains',
+          form_opt_event: 'Location pour Événement Social / Réception Privée (750 m²)',
           form_email_label: 'Email de Contact',
           form_feedback: 'Merci pour votre demande ! Envoi préparé vers thehousequetzal@icloud.com et WhatsApp (+52 984 125 6251).',
           form_submit: 'Envoyer par Email',
@@ -1852,6 +2086,7 @@
           footer_nav_1: 'La Résidence (2 Chambres · 2.5 Bains · 6 Pers.)',
           footer_nav_2: 'Visite Immersive 360°',
           footer_nav_3: 'Collection & Architecture (29 Photos)',
+          footer_nav_ev: 'Événements Sociaux & Célébrations',
           footer_nav_4: 'Emplacement, Cénotes & Transports',
           footer_nav_5: 'Réservation Exclusive',
           footer_concierge_title: 'Contact & Emplacement',
@@ -1868,6 +2103,8 @@
           nav_villa: 'La Villa',
           nav_tour: 'Tour Virtuale 360°',
           nav_gallery: 'Galleria',
+          nav_events: 'Eventi Sociali',
+          nav_events_short: 'Eventi',
           nav_location: 'Posizione & Dintorni',
           nav_book: 'Prenota Esperienza',
           lang_select_title: 'Seleziona Lingua',
@@ -1901,6 +2138,31 @@
           filter_social: 'Aree Sociali (10)',
           filter_suites: 'Suite & Bagni (6)',
           filter_interior: 'Cucina & Dettagli (5)',
+          ev_overline: 'Location Esclusiva · Affitto per Eventi',
+          ev_title: 'Eventi Sociali e Celebrazioni nella Giungla',
+          ev_desc: 'Oltre ai soggiorni vacanza, la tenuta privata di 750 m², i giardini tropicali, la terrazza in pietra calcarea e la piscina cenote di The Villa House sono disponibili per eventi sociali intimi, cene di gala, cocktail serali e feste familiari in totale privacy.',
+          ev_cta_form: 'Richiedi Preventivo Evento',
+          ev_cta_wa: 'WhatsApp Eventi',
+          ev_1_tag: 'Cene di Gala & Matrimoni Intimi',
+          ev_1_title: 'Banchetti al Tramonto di fronte al Cenote',
+          ev_1_desc: 'Allestimento di tavoli rotondi o imperiali in giardino e solarium, catene luminose calde sospese, candele galleggianti sullo specchio d’acqua turchese e atmosfera romantica nella giungla.',
+          ev_1_meta: 'Matrimoni Boutique · Cene d’Autore · Proposte',
+          ev_2_tag: 'Cocktail & Serate Private',
+          ev_2_title: 'Soirée, Anniversari e Ricevimenti VIP',
+          ev_2_desc: 'Atmosfera lounge notturna intorno alla piscina cenote illuminata con tavoli alti da cocktail, postazione catering e mixology, architettura in pietra illuminata e privacy totale.',
+          ev_2_meta: 'Mixology & Catering · Illuminazione Architettonica',
+          ev_3_tag: 'Eventi Diurni & Familiari',
+          ev_3_title: 'Compleanni, Pool Party e Ritrovi',
+          ev_3_desc: 'Ampi spazi esterni sicuri e recintati di 750 m² con piscina a ingresso spiaggia, ideali per feste di compleanno, feste per bambini, allestimenti a tema e gonfiabili.',
+          ev_3_meta: 'Tenuta di 750 m² · Spiaggia Sommersa · Ambiente Familiare',
+          ev_feat_1_t: 'Tenuta Privata di 750 m²',
+          ev_feat_1_d: 'Giardino tropicale, portico coperto, solarium e piscina cenote a tua completa disposizione.',
+          ev_feat_2_t: 'Accesso Catering e Allestimenti',
+          ev_feat_2_d: 'Logistica agevole per allestimento banchetti, chef privato, fiori, decorazioni e musica.',
+          ev_feat_3_t: 'Affitto per Evento o con Soggiorno',
+          ev_feat_3_d: 'Formula flessibile per evento giornaliero o combinata con pernottamento (fino a 6 Ospiti).',
+          ev_feat_4_t: 'Privacy ed Esclusività 100%',
+          ev_feat_4_d: 'Proprietà interamente recintata nella giungla di Tulum per festeggiare nella massima intimità.',
           loc_overline: 'Guida Informativa Regionale',
           loc_title: 'Posizione, Cenote & Dintorni di Tulum',
           loc_desc: 'Informazioni pratiche sui sacri cenote, i siti archeologici, le riserve naturali e i collegamenti di trasporto intorno a Tulum.',
@@ -1970,10 +2232,11 @@
           form_title: 'Pianifica il tuo arrivo',
           form_checkin: 'Check-in',
           form_checkout: 'Check-out',
-          form_guests_label: 'Alloggio (Fino a 6 Ospiti · 2.5 Bagni)',
+          form_guests_label: 'Alloggio / Evento (Fino a 6 Ospiti · 750 m²)',
           form_opt_2: '1 - 2 Ospiti · Villa Intera (2 Camere / 2.5 Bagni)',
           form_opt_4: '3 - 4 Ospiti · Villa Intera (2 Camere / 2.5 Bagni)',
           form_opt_6: 'Fino a 6 Ospiti (6 Pax) · 2 Camere · 2.5 Bagni',
+          form_opt_event: 'Affitto per Evento Sociale / Festa Privata (750 m²)',
           form_email_label: 'Email di Contatto',
           form_feedback: 'Grazie per la tua richiesta! Invio preparato a thehousequetzal@icloud.com e WhatsApp (+52 984 125 6251).',
           form_submit: 'Invia per Email',
@@ -1984,6 +2247,7 @@
           footer_nav_1: 'La Residenza (2 Camere · 2.5 Bagni · 6 Ospiti)',
           footer_nav_2: 'Tour Immersivo 360°',
           footer_nav_3: 'Collezione e Architettura (29 Foto)',
+          footer_nav_ev: 'Eventi Sociali e Celebrazioni',
           footer_nav_4: 'Posizione, Cenote e Trasporti',
           footer_nav_5: 'Prenotazione Esclusiva',
           footer_concierge_title: 'Contatto & Posizione',
@@ -2358,6 +2622,24 @@
           `• *Ref:* thehousequetzal@icloud.com`
         );
         window.open(`https://wa.me/529841256251?text=${waMessage}`, '_blank', 'noopener,noreferrer');
+      };
+
+      window.openEventPhotoModal = function(src, counterText) {
+        if (!lightbox || !lightboxImg) return;
+        lightboxImg.src = src;
+        if (lightboxCounter) lightboxCounter.textContent = counterText || '';
+        if (typeof lightbox.showModal === 'function') {
+          lightbox.showModal();
+        } else {
+          lightbox.setAttribute('open', '');
+        }
+      };
+
+      window.selectEventBookingOption = function() {
+        const guestsSelect = document.getElementById('guests-count');
+        if (guestsSelect) {
+          guestsSelect.value = 'event';
+        }
       };
 
       // Set default dates for booking form
