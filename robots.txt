@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Disallow raw or system folders if ever exposed
+Disallow: /Videos/
+
+# Sitemaps for Google Search Console & Bing
+Sitemap: https://thehousevilla.com/sitemap.xml

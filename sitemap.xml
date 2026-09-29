@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- 1. Home / La Villa -->
+  <url>
+    <loc>https://thehousevilla.com/index.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehousevilla.com/index.html?lang=ES"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehousevilla.com/index.html?lang=EN"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehousevilla.com/index.html?lang=FR"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehousevilla.com/index.html?lang=IT"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thehousevilla.com/index.html"/>
+    <video:video>
+      <video:thumbnail_loc>https://thehousevilla.com/Fotos%20TheVillaHouse%20-%20Curadas/DSC00330.webp</video:thumbnail_loc>
+      <video:title>The House Villa · Refugio de Lujo en la Selva de Tulum (750 m²)</video:title>
+      <video:description>Recorrido cinematográfico por The House Villa en Tulum: 750 m² de arquitectura en piedra caliza maya, alberca privada, 2 suites de lujo para hasta 6 huéspedes y escenario para eventos sociales.</video:description>
+      <video:content_loc>https://thehousevilla.com/assets/videos/thv2-esp.mp4</video:content_loc>
+      <video:duration>87</video:duration>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+
+  <!-- 2. Galería de Fotos Curada -->
+  <url>
+    <loc>https://thehousevilla.com/galeria.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehousevilla.com/galeria.html?lang=ES"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehousevilla.com/galeria.html?lang=EN"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehousevilla.com/galeria.html?lang=FR"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehousevilla.com/galeria.html?lang=IT"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thehousevilla.com/galeria.html"/>
+  </url>
+
+  <!-- 3. Tour Virtual 360° -->
+  <url>
+    <loc>https://thehousevilla.com/tour-360.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehousevilla.com/tour-360.html?lang=ES"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehousevilla.com/tour-360.html?lang=EN"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehousevilla.com/tour-360.html?lang=FR"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehousevilla.com/tour-360.html?lang=IT"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thehousevilla.com/tour-360.html"/>
+  </url>
+
+  <!-- 4. Eventos Sociales y Celebraciones -->
+  <url>
+    <loc>https://thehousevilla.com/eventos.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehousevilla.com/eventos.html?lang=ES"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehousevilla.com/eventos.html?lang=EN"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehousevilla.com/eventos.html?lang=FR"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehousevilla.com/eventos.html?lang=IT"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thehousevilla.com/eventos.html"/>
+  </url>
+
+  <!-- 5. Ubicación, Cenotes y Entorno en Tulum -->
+  <url>
+    <loc>https://thehousevilla.com/ubicacion-tulum.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehousevilla.com/ubicacion-tulum.html?lang=ES"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehousevilla.com/ubicacion-tulum.html?lang=EN"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehousevilla.com/ubicacion-tulum.html?lang=FR"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehousevilla.com/ubicacion-tulum.html?lang=IT"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thehousevilla.com/ubicacion-tulum.html"/>
+  </url>
+
+  <!-- 6. Reservaciones y Contacto Concierge -->
+  <url>
+    <loc>https://thehousevilla.com/reservas.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehousevilla.com/reservas.html?lang=ES"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehousevilla.com/reservas.html?lang=EN"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehousevilla.com/reservas.html?lang=FR"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehousevilla.com/reservas.html?lang=IT"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thehousevilla.com/reservas.html"/>
+  </url>
+
+  <!-- 7. Aviso de Privacidad, Términos de Estancia y Cookies -->
+  <url>
+    <loc>https://thehousevilla.com/privacidad.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thehousevilla.com/privacidad.html?lang=ES"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thehousevilla.com/privacidad.html?lang=EN"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thehousevilla.com/privacidad.html?lang=FR"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://thehousevilla.com/privacidad.html?lang=IT"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://thehousevilla.com/privacidad.html"/>
+  </url>
+
+</urlset>

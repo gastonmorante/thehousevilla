@@ -1,10 +1,21 @@
-# Raw media and heavy source folders (excluded from web repo)
+# Raw media, Adobe Premiere project files, and heavy source folders (excluded from web repo)
 360 the house villa/
+Adobe Premiere Pro Audio Previews/
+Adobe Premiere Pro Auto-Save/
+Adobe Premiere Pro Video Previews/
+Premiere Composer Files/
+events/
 fotos sony/
 fotos the house villa/
 insta 360/
 osmo/
+tomas extras/
 video sony/
+Videos/
+voz en off/
+*.prproj
+*.prin
+*.mp3
 *.jfif
 *.acr
 logo.png
