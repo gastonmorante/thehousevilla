@@ -1090,7 +1090,7 @@
   }
 
   let currentLang = getInitialLang();
-  let currentCategory = 'all';
+  let currentCategory = null;
   let currentIndex = 0;
 
   // Dialog closedby fallback for Safari / older browsers (per modern-web-guidance)
@@ -1318,10 +1318,17 @@
 
   initDynamicKpis();
 
-  // Render all 29 gallery cards
+  // Render gallery cards only when a category is selected (hidden initially)
   function renderGalleryGrid() {
     if (!gridContainer) return;
     gridContainer.innerHTML = '';
+
+    if (!currentCategory) {
+      gridContainer.classList.add('hidden');
+      return;
+    }
+
+    gridContainer.classList.remove('hidden');
 
     galleryData.forEach((item, index) => {
       if (currentCategory !== 'all' && item.cat !== currentCategory) return;
@@ -1454,18 +1461,39 @@
     }
   });
 
-  // Filter Tabs Functionality
+  // Filter Tabs Functionality (Thumbnails start hidden; shown when a category is selected)
   const filterButtons = document.querySelectorAll('.filter-btn');
   filterButtons.forEach(btn => {
     btn.addEventListener('click', () => {
+      const selectedCat = btn.getAttribute('data-cat') || 'all';
+
+      if (currentCategory === selectedCat) {
+        currentCategory = null;
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-primary', 'text-white');
+          b.classList.add('text-on-surface-variant');
+          b.setAttribute('aria-pressed', 'false');
+        });
+        renderGalleryGrid();
+        return;
+      }
+
       filterButtons.forEach(b => {
         b.classList.remove('bg-primary', 'text-white');
         b.classList.add('text-on-surface-variant');
+        b.setAttribute('aria-pressed', 'false');
       });
       btn.classList.add('bg-primary', 'text-white');
       btn.classList.remove('text-on-surface-variant');
+      btn.setAttribute('aria-pressed', 'true');
 
-      currentCategory = btn.getAttribute('data-cat') || 'all';
+      currentCategory = selectedCat;
+      if (currentCategory !== 'all') {
+        const firstMatchIdx = galleryData.findIndex(item => item.cat === currentCategory);
+        if (firstMatchIdx !== -1) {
+          updateFeatureSlide(firstMatchIdx);
+        }
+      }
       renderGalleryGrid();
     });
   });

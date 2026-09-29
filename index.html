@@ -559,16 +559,16 @@
             </div>
             <!-- Filter Tabs (Horizontally scrollable on mobile, wrapped on tablet/PC) -->
             <div class="flex overflow-x-auto sm:flex-wrap items-center gap-1.5 sm:gap-2 p-1.5 bg-surface-container-low rounded-xl border border-outline-variant/30 no-scrollbar snap-x max-w-full" id="gallery-filter-tabs">
-              <button class="filter-btn shrink-0 snap-start whitespace-nowrap px-3.5 sm:px-4 py-2 rounded-lg font-label-md text-label-md uppercase tracking-wider bg-primary text-white transition-all" data-cat="all" data-i18n="filter_all" type="button">Todos (29)</button>
-              <button class="filter-btn shrink-0 snap-start whitespace-nowrap px-3.5 sm:px-4 py-2 rounded-lg font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-all" data-cat="exterior" data-i18n="filter_exterior" type="button">Exterior &amp; Piscina (8)</button>
-              <button class="filter-btn shrink-0 snap-start whitespace-nowrap px-3.5 sm:px-4 py-2 rounded-lg font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-all" data-cat="social" data-i18n="filter_social" type="button">Áreas Sociales (10)</button>
-              <button class="filter-btn shrink-0 snap-start whitespace-nowrap px-3.5 sm:px-4 py-2 rounded-lg font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-all" data-cat="suites" data-i18n="filter_suites" type="button">Suites &amp; Baños (6)</button>
-              <button class="filter-btn shrink-0 snap-start whitespace-nowrap px-3.5 sm:px-4 py-2 rounded-lg font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-all" data-cat="interior" data-i18n="filter_interior" type="button">Cocina &amp; Detalles (5)</button>
+              <button aria-pressed="false" class="filter-btn shrink-0 snap-start whitespace-nowrap px-3.5 sm:px-4 py-2 rounded-lg font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-all" data-cat="all" data-i18n="filter_all" type="button">Todos (29)</button>
+              <button aria-pressed="false" class="filter-btn shrink-0 snap-start whitespace-nowrap px-3.5 sm:px-4 py-2 rounded-lg font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-all" data-cat="exterior" data-i18n="filter_exterior" type="button">Exterior &amp; Piscina (8)</button>
+              <button aria-pressed="false" class="filter-btn shrink-0 snap-start whitespace-nowrap px-3.5 sm:px-4 py-2 rounded-lg font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-all" data-cat="social" data-i18n="filter_social" type="button">Áreas Sociales (10)</button>
+              <button aria-pressed="false" class="filter-btn shrink-0 snap-start whitespace-nowrap px-3.5 sm:px-4 py-2 rounded-lg font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-all" data-cat="suites" data-i18n="filter_suites" type="button">Suites &amp; Baños (6)</button>
+              <button aria-pressed="false" class="filter-btn shrink-0 snap-start whitespace-nowrap px-3.5 sm:px-4 py-2 rounded-lg font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-primary transition-all" data-cat="interior" data-i18n="filter_interior" type="button">Cocina &amp; Detalles (5)</button>
             </div>
           </div>
 
           <!-- Feature Interactive Carousel Showcase (Clean Image Without Text Overlays) -->
-          <div class="relative w-full rounded-2xl overflow-hidden bg-primary mb-8 sm:mb-12 shadow-xl group">
+          <div class="relative w-full rounded-2xl overflow-hidden bg-primary shadow-xl group">
             <div class="relative aspect-[4/3] sm:aspect-[16/10] lg:aspect-auto lg:h-[600px] w-full">
               <img alt="The Villa House" class="w-full h-full object-cover transition-all duration-500 ease-out cursor-zoom-in select-none" decoding="async" id="main-feature-img" src="Fotos TheVillaHouse - Curadas/DSC00330.webp">
               <!-- Top Right Expand & Counter -->
@@ -590,8 +590,8 @@
             </div>
           </div>
 
-          <!-- Curated Thumbnail Grid (2 cols on mobile, 3 on tablet, 4 on desktop) -->
-          <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-5 lg:gap-6" id="gallery-items-grid"></div>
+          <!-- Curated Thumbnail Grid (Hidden initially; shown only when a category is selected) -->
+          <div class="hidden grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-5 lg:gap-6 mt-6 sm:mt-10" id="gallery-items-grid"></div>
         </div>
       </section>
 
@@ -1363,6 +1363,6 @@
   </footer>
 
   <!-- SHARED SITE LOGIC (MULTI-LANGUAGE, VIDEO MODAL, GALLERY, COOKIES & FORM VALIDATION) -->
-  <script defer src="assets/js/site.js?v=20260929"></script>
+  <script defer src="assets/js/site.js?v=20260929b"></script>
 </body>
 </html>
