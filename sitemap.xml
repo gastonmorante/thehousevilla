@@ -18,7 +18,7 @@
     <video:video>
       <video:thumbnail_loc>https://thehousevilla.com/Fotos%20TheVillaHouse%20-%20Curadas/DSC00330.webp</video:thumbnail_loc>
       <video:title>The House Villa · Refugio de Lujo en la Selva de Tulum (750 m²)</video:title>
-      <video:description>Recorrido cinematográfico por The House Villa en Tulum: 750 m² de arquitectura en piedra caliza maya, alberca privada, 2 suites de lujo para hasta 6 huéspedes y escenario para eventos sociales.</video:description>
+      <video:description>Recorrido cinematográfico por The House Villa en Tulum: 750 m² de arquitectura en piedra caliza maya, alberca privada y 2 suites de lujo para hasta 6 huéspedes en total privacidad.</video:description>
       <video:content_loc>https://thehousevilla.com/assets/videos/thv2-esp.mp4</video:content_loc>
       <video:duration>87</video:duration>
       <video:family_friendly>yes</video:family_friendly>
@@ -51,7 +51,7 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thehousevilla.com/tour-360.html"/>
   </url>
 
-  <!-- 4. Eventos Sociales y Celebraciones -->
+  <!-- 4. Eventos Sociales y Celebraciones (Oculto temporalmente)
   <url>
     <loc>https://thehousevilla.com/eventos.html</loc>
     <lastmod>2026-09-29</lastmod>
@@ -63,6 +63,7 @@
     <xhtml:link rel="alternate" hreflang="it" href="https://thehousevilla.com/eventos.html?lang=IT"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://thehousevilla.com/eventos.html"/>
   </url>
+  -->
 
   <!-- 5. Ubicación, Cenotes y Entorno en Tulum -->
   <url>
